@@ -7,6 +7,7 @@ This repository allows you to uplift biological files from one genome assembly t
 The following file formats are currently supported:
 
 * Bed
+* Gff / Gff3 / Gtf
 
 ## Usage
 
