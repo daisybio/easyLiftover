@@ -17,7 +17,8 @@
 		"vscode": {
 			"extensions": [
 				"ms-azuretools.vscode-docker",
-				"GitHub.copilot"
+				"GitHub.copilot",
+				"donjayamanne.python-extension-pack"
 			]
 		}
 	},
