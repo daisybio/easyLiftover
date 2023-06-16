@@ -71,12 +71,11 @@ def uplift(req) -> Response:
     file_extension = file_name.split(".")[-1]
 
     used_type = get_type if get_type is not None else file_extension
-    
-    match used_type:
-        case "bed":
-            method = __process_bed__
-        case _:
-            raise Exception("Unsupported file type")
+        
+    if used_type == "bed":
+        method = __process_bed__
+    else:
+        raise Exception("Unsupported file type")
         
     uplifted_file_content = method(file_content, from_ga, to_ga)
     return Response(uplifted_file_content, content_type="text/plain")
