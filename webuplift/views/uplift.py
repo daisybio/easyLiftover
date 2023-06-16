@@ -60,7 +60,7 @@ def uplift(req) -> Response:
     """
     # Get the parameters from the request.
     data = req.GET
-    file_type = data.get("type", None)
+    get_type = data.get("type", None)
     from_ga = data.get("from", None)
     to_ga = data.get("to", None)
 
@@ -70,8 +70,13 @@ def uplift(req) -> Response:
     file_name = file.name
     file_extension = file_name.split(".")[-1]
 
-    match file_extension:
+    used_type = get_type if get_type is not None else file_extension
+    
+    match used_type:
         case "bed":
-            return Response(__process_bed__(file_content, from_ga, to_ga))
+            method = __process_bed__
         case _:
-            return Response("Hello, world!")
+            raise Exception("Unsupported file type")
+        
+    uplifted_file_content = method(file_content, from_ga, to_ga)
+    return Response(uplifted_file_content, content_type="text/plain")
