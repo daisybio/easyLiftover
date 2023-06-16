@@ -4,7 +4,7 @@ from .abstract import AbstractRowWiseLifter
 class GffLifter(AbstractRowWiseLifter):
     """Lifter for gff files."""
 
-    def __lift_row__(self, row: str) -> str | None:
+    def __lift_row__(self, row: str) -> "str | None":
         splitted = row.split()
 
         chromosome = splitted[0]

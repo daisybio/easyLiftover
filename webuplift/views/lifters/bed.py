@@ -4,7 +4,7 @@ from .abstract import AbstractRowWiseLifter
 class BedLifter(AbstractRowWiseLifter):
     """Lifter for bed files."""
 
-    def __lift_row__(self, row: str) -> str | None:
+    def __lift_row__(self, row: str) -> "str | None":
         """Lifts a single row."""
 
         chromosome, start, end, *rest = row.split()

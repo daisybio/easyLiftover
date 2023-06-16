@@ -12,7 +12,7 @@ class AbstractLifter(ABC):
 
     def convert(
         self, chromosome: str, start: int, end: int
-    ) -> Tuple[str, str, str] | None:
+    ) -> "Tuple[str, str, str] | None":
         """
         Converts a genomic position from one genome build to another.
         """
@@ -57,6 +57,6 @@ class AbstractRowWiseLifter(AbstractLifter):
         return "\n".join(result)
 
     @abstractmethod
-    def __lift_row__(self, row: str) -> str | None:
+    def __lift_row__(self, row: str) -> "str | None":
         """Lifts a single row."""
         raise NotImplementedError
