@@ -8,6 +8,7 @@ The following file formats are currently supported:
 
 * Bed
 * Gff / Gff3 / Gtf
+* Wig
 
 ## Usage
 
