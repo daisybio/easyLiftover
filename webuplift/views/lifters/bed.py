@@ -9,8 +9,8 @@ class BedLifter(AbstractRowWiseLifter):
 
         chromosome, start, end, *rest = row.split()
 
-        lifted = self.convert(chromosome, int(start), int(end))
-        
+        lifted = self.convert_region(chromosome, int(start), int(end))
+
         if lifted is not None:
             lifted_chromosome, lifted_start, lifted_end = lifted
 

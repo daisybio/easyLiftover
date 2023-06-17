@@ -11,7 +11,7 @@ class GffLifter(AbstractRowWiseLifter):
         start = splitted[3]
         end = splitted[4]
 
-        lifted = self.convert(chromosome, int(start), int(end))
+        lifted = self.convert_region(chromosome, int(start), int(end))
 
         if lifted is not None:
             lifted_chromosome, lifted_start, lifted_end = lifted

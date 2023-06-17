@@ -31,6 +31,8 @@ def uplift(req) -> Response:
         LifterClass = BedLifter
     elif used_type in ["gff", "gff3", "gtf"]:
         LifterClass = GffLifter
+    elif used_type == "wig":
+        LifterClass = WigLifter
     else:
         raise Exception("Unsupported file type")
 

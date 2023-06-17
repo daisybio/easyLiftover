@@ -10,7 +10,18 @@ class AbstractLifter(ABC):
         """Initializes the lifter."""
         self.lo = LiftOver(from_ga, to_ga)
 
-    def convert(
+    def convert_coordinate(self, chromosome: str, position: int) -> "Tuple[str, int] | None":
+        lifted = self.lo.convert_coordinate(chromosome, position)
+        
+        if lifted is None:
+            return None
+        
+        if len(lifted) == 0:
+            return None
+        
+        return lifted[0][0], lifted[0][1]
+
+    def convert_region(
         self, chromosome: str, start: int, end: int
     ) -> "Tuple[str, str, str] | None":
         """
@@ -19,16 +30,13 @@ class AbstractLifter(ABC):
 
         print("Converting", chromosome, start, end)
 
-        lifted_start = self.lo.convert_coordinate(chromosome, start)
-        lifted_end = self.lo.convert_coordinate(chromosome, end)
+        lifted_start = self.convert_coordinate(chromosome, start)
+        lifted_end = self.convert_coordinate(chromosome, end)
 
         if lifted_start is None or lifted_end is None:
             return None
 
-        if len(lifted_start) == 0 or len(lifted_end) == 0:
-            return None
-
-        return (lifted_start[0][0], str(lifted_start[0][1]), str(lifted_end[0][1]))
+        return (lifted_start[0], str(lifted_start[1]), str(lifted_end[1]))
 
     @abstractmethod
     def lift(self, data: str) -> str:

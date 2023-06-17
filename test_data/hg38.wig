@@ -1,0 +1,15 @@
+variableStep chrom=chr1
+807887 20
+831028 40
+838505 60
+variableStep chrom=chr1 span=150
+807888 20
+831029 40
+838506 60
+fixedStep chrom=chr1 start=807887 step=100
+11
+22
+33
+fixedStep chrom=chr1 start=831029 step=100 span=50
+11
+22

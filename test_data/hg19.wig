@@ -1,0 +1,15 @@
+variableStep chrom=chr1
+743267 20
+766408 40
+773885 60
+variableStep chrom=chr1 span=150
+743268 20
+766409 40
+773886 60
+fixedStep chrom=chr1 start=743267 step=100
+11
+22
+33
+fixedStep chrom=chr1 start=766409 step=100 span=50
+11
+22
