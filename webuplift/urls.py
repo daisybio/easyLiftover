@@ -21,4 +21,5 @@ urlpatterns = [
     path("uplift", uplift),
     path("list_types", get_types),
     path("list_targets", get_targets),
+    path("list_genomes", get_genomes),
 ]

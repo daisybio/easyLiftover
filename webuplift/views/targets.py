@@ -1,6 +1,5 @@
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
-from webuplift.views.lifters import *
 import requests
 from bs4 import BeautifulSoup
 
