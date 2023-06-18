@@ -37,6 +37,22 @@ def get_types(req) -> Response:
                     {"name": "Other", "can_be_lifted": False},
                 ],
             },
+            {
+                "name": "Alignment",
+                "Description": "Alignment data",
+                "formats": [
+                    {"name": "bam", "can_be_lifted": False},
+                    {"name": "cram", "can_be_lifted": False},
+                    {"name": "Other", "can_be_lifted": False},
+                ]
+            },
+            {
+                "name": "Variant",
+                "Description": "Variant data",
+                "formats": [
+                    {"name": "vcf", "can_be_lifted": False},
+                ]
+            }
         ],
         content_type="application/json",
     )
