@@ -20,4 +20,5 @@ from webuplift.views import *
 urlpatterns = [
     path("uplift", uplift),
     path("list_types", get_types),
+    path("list_targets", get_targets),
 ]

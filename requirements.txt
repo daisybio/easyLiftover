@@ -2,3 +2,5 @@ pyliftover
 Django
 djangorestframework
 gunicorn
+requests
+beautifulsoup4
