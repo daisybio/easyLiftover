@@ -17,4 +17,4 @@ EXPOSE 80
 ENV DJANGO_SETTINGS_MODULE=webuplift.settings
 
 # Set command to run when running the container
-CMD ["python", "manage.py", "runserver", "0.0.0.0:80"]
+CMD ["./run.sh", "/etc/ssl/fullchain.pem", "/etc/ssl/privkey.key"]
