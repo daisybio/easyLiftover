@@ -4,3 +4,4 @@ djangorestframework
 gunicorn
 requests
 beautifulsoup4
+django-cors-headers
