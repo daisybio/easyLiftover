@@ -1,3 +1,5 @@
 pyliftover
 requests
 beautifulsoup4
+pytest
+pytest-cov
