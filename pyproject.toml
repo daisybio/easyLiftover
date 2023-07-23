@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "easy_liftover"
-version = "0.0.4"
+version = "0.0.5"
 description = "A python package for lifting over biological files"
 packages = [
     { include = "*", from = "src" },
