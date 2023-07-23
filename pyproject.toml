@@ -6,6 +6,9 @@ build-backend = "poetry.core.masonry.api"
 name = "easy-liftover"
 version = "0.0.1"
 description = "A python package for lifting over biological files"
+packages = [
+    { include = "*", from = "src" },
+]
 license = "MIT"
 authors = ["Nico Trummer <nictru32@gmail.com>"]
 repository = "https://github.com/biomedbigdata/easyUplift"
@@ -22,7 +25,6 @@ pyliftover = "^0.4"
 pytest = "^6.2.4"
 pytest-cov = "^2.12.1"
 flake8 = "^6.0.0"
-build = "^0.10.0"
 
 [tool.pytest.ini_options]
 addopts = "--cov"

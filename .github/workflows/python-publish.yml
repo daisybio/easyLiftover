@@ -37,7 +37,7 @@ jobs:
         poetry install --with dev
         
     - name: Build package
-      run: python -m build
+      run: poetry build
       
     - name: Publish package
       uses: pypa/gh-action-pypi-publish@release/v1
