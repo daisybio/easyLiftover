@@ -13,14 +13,14 @@ homepage = "https://github.com/biomedbigdata/easyUplift"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.7"
+python = ">=3.8.1"
 requests = "^2.26.0"
 beautifulsoup4 = "^4.9.3"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.4"
 pytest-cov = "^2.12.1"
-flake8 = "^3.9.2"
+flake8 = "^6.0.0"
 
 [tool.pytest.ini_options]
 addopts = "--cov"
