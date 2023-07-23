@@ -1,13 +1,20 @@
-from .lifters import AbstractLifter, BedLifter, GffLifter, WigLifter
+from .lifters import BedLifter, GffLifter, WigLifter, AbstractLifter
 
-def uplift(fromGenome: str, toGenome: str, path: str, file_type: str | None = None) -> str:
-    """Uplifts a genomic position from one genome build to another.
 
-    Args:
-        req: The request object.
+def uplift(
+    fromGenome: str, toGenome: str, path: str, file_type: str | None = None
+) -> str:
+    """
+    Uplifts a file from one genome build to another.
+
+    Parameters:
+        fromGenome (str): The genome build to lift from.
+        toGenome (str): The genome build to lift to.
+        path (str): The path to the file to lift.
+        file_type (str): The type of the file to lift. If not provided, the file extension will be used.
 
     Returns:
-        A response object with the uplifted position.
+        str: The lifted file content.
     """
 
     file_content = open(path, "r").read()
@@ -26,7 +33,7 @@ def uplift(fromGenome: str, toGenome: str, path: str, file_type: str | None = No
 
     print("Initializing lifter", LifterClass, "with", fromGenome, toGenome)
 
-    lifter = LifterClass(fromGenome, toGenome)
+    lifter: AbstractLifter = LifterClass(fromGenome, toGenome)
 
     print("Using lifter", LifterClass, "to lift", path)
 
