@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from pyliftover import LiftOver
+from .pyliftover.pyliftover import LiftOver
 from typing import Tuple
 
 

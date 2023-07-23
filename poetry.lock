@@ -333,16 +333,6 @@ files = [
 ]
 
 [[package]]
-name = "pyliftover"
-version = "0.4"
-description = "Pure-python implementation of UCSC ``liftOver`` genome coordinate conversion."
-optional = false
-python-versions = "*"
-files = [
-    {file = "pyliftover-0.4.tar.gz", hash = "sha256:72bcfb7de907569b0eb75e86c817840365297d63ba43a961da394187e399da41"},
-]
-
-[[package]]
 name = "pytest"
 version = "6.2.5"
 description = "pytest: simple powerful testing with Python"
@@ -448,4 +438,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8.1"
-content-hash = "d4f76ead3634786be2187c9b22ed4843153f09deca9ee3a7939075d75857a844"
+content-hash = "39e2c01b8fa9b42cf62b7b4e15ab7118f55ceb267033e51112738e4b1a94684e"

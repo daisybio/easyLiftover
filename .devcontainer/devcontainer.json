@@ -19,7 +19,8 @@
 				"ms-azuretools.vscode-docker",
 				"GitHub.copilot",
 				"donjayamanne.python-extension-pack",
-				"github.vscode-github-actions"
+				"github.vscode-github-actions",
+				"ms-python.python"
 			]
 		}
 	},

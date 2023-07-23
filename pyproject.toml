@@ -19,7 +19,6 @@ readme = "README.md"
 python = ">=3.8.1"
 requests = "^2.26.0"
 beautifulsoup4 = "^4.9.3"
-pyliftover = "^0.4"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.4"
@@ -27,4 +26,4 @@ pytest-cov = "^2.12.1"
 flake8 = "^6.0.0"
 
 [tool.pytest.ini_options]
-addopts = "--cov"
+addopts = "--cov --ignore=src/lifters/pyliftover"

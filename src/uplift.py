@@ -1,6 +1,5 @@
 from .lifters import BedLifter, GffLifter, WigLifter, AbstractLifter
 
-
 def uplift(
     fromGenome: str, toGenome: str, path: str, file_type: "str | None" = None
 ) -> str:
