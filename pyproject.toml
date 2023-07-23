@@ -16,7 +16,7 @@ readme = "README.md"
 python = ">=3.8.1"
 requests = "^2.26.0"
 beautifulsoup4 = "^4.9.3"
-pyuplift = "^0.0.4.1"
+pyliftover = "^0.4"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.4"
