@@ -1,4 +1,4 @@
-from easyliftover import upliftPath
+from easyliftover import upliftPath, upliftUrl
 
 def __test__(assembly1: str, assembly2: str, path_assembly1: str, path_assembly2: str):
     content_assembly1 = open(path_assembly1).read()
@@ -16,3 +16,6 @@ def test_gff():
 def test_wig():
     __test__('hg19', 'hg38', 'test/data/hg19.wig', 'test/data/hg38.wig')
     
+def test_url_lifting():
+    result = upliftUrl('hg19', 'hg38', 'https://github.com/biomedbigdata/easyLiftover/raw/main/test/data/hg19.bed')
+    assert result == upliftPath('hg19', 'hg38', 'test/data/hg19.bed')
