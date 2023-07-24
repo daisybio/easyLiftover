@@ -19,7 +19,7 @@ beautifulsoup4 = "^4.9.3"
 pyodide-http = "^0.2.1"
 
 [tool.poetry.dev-dependencies]
-pytest = "^6.2.4"
+pytest = "^7.2.0"
 pytest-cov = "^2.12.1"
 flake8 = "^6.0.0"
 
