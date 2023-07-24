@@ -16,7 +16,6 @@ readme = "README.md"
 python = ">=3.9"
 requests = "^2.26.0"
 beautifulsoup4 = "^4.9.3"
-pyodide-http = "^0.2.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.2.0"

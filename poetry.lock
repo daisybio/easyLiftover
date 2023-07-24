@@ -311,17 +311,6 @@ files = [
 ]
 
 [[package]]
-name = "pyodide-http"
-version = "0.2.1"
-description = "Patch requests, urllib and urllib3 to make them work in Pyodide"
-optional = false
-python-versions = "*"
-files = [
-    {file = "pyodide_http-0.2.1-py3-none-any.whl", hash = "sha256:504f62904536a91049c12d0b9162ebaa187a84a3dd877e17c04fd9bf6ec3b68e"},
-    {file = "pyodide_http-0.2.1.tar.gz", hash = "sha256:96afea01716c434025d70c45e255e28ac68ecddc196ddc2eafe8741c91661354"},
-]
-
-[[package]]
 name = "pytest"
 version = "7.4.0"
 description = "pytest: simple powerful testing with Python"
@@ -424,4 +413,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9"
-content-hash = "dbb076317f070bd097e520ec51251c39f36567f2121217eb73a27a57a75c33a9"
+content-hash = "2603efbc194e985decd6bdf4ef5e7160f22cb171b759b680f7b4e4fb73f04e78"
