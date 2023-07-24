@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "easyliftover"
-version = "0.0.3"
+version = "0.0.4"
 description = "A python package for lifting over biological files"
 license = "MIT"
 authors = ["Nico Trummer <nictru32@gmail.com>"]
@@ -13,9 +13,10 @@ homepage = "https://github.com/biomedbigdata/easyUplift"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = ">=3.8.1"
+python = ">=3.9"
 requests = "^2.26.0"
 beautifulsoup4 = "^4.9.3"
+pyodide-http = "^0.2.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.4"
