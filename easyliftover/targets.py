@@ -1,9 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-def get_targets(req) -> list:
-    original = req.GET.get("from", None)
-    
+def get_targets(original) -> list:    
     url = f"http://hgdownload.cse.ucsc.edu/goldenPath/{original}/liftOver/"
     
     result = requests.get(url)

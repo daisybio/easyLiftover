@@ -1,0 +1,7 @@
+[run]
+omit = 
+    test/*
+    easyliftover/lifters/pyliftover/*
+
+[report]
+fail_under = 85
