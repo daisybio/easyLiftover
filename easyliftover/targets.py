@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 def get_targets(original) -> list:    
-    url = f"http://hgdownload.cse.ucsc.edu/goldenPath/{original}/liftOver/"
+    url = f"https://hgdownload.cse.ucsc.edu/goldenPath/{original}/liftOver/"
     
     result = requests.get(url)
     soup = BeautifulSoup(result.content, "html.parser")

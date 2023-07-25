@@ -1,3 +1,0 @@
-[submodule "easyliftover/lifters/pyliftover"]
-	path = easyliftover/lifters/pyliftover
-	url = git@github.com:konstantint/pyliftover.git
