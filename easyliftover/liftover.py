@@ -4,23 +4,23 @@ import requests
 def __get_type(path: str) -> str:
     return path.split(".")[-1]
 
-def upliftUrl(
+def liftover_url(
     fromGenome: str, toGenome: str, url: str, file_type: "str | None" = None
 ) -> str:
     chosen_type = file_type if file_type is not None else __get_type(url)
-    return uplift(fromGenome, toGenome, requests.get(url).text, chosen_type)
+    return liftover(fromGenome, toGenome, requests.get(url).text, chosen_type)
 
-def upliftPath(
+def liftover_path(
     fromGenome: str, toGenome: str, path: str, file_type: "str | None" = None
 ) -> str:
     chosen_type = file_type if file_type is not None else __get_type(path)
-    return uplift(fromGenome, toGenome, open(path, "r").read(), chosen_type)
+    return liftover(fromGenome, toGenome, open(path, "r").read(), chosen_type)
 
-def uplift(
+def liftover(
     fromGenome: str, toGenome: str, content: str, file_type: str
 ) -> str:
     """
-    Uplifts a file from one genome build to another.
+    Lifts a file from one genome build to another.
 
     Parameters:
         fromGenome (str): The genome build to lift from.

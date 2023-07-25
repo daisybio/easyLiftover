@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/python
 {
-	"name": "WebUplift",
+	"name": "EasyLiftover",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/python:0-3.11",
 	// Features to add to the dev container. More info: https://containers.dev/features.
@@ -23,8 +23,5 @@
 				"ms-python.python"
 			]
 		}
-	},
-	"containerEnv": {
-		"DJANGO_SETTINGS_MODULE": "webuplift.settings"
 	}
 }
