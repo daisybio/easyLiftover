@@ -2,6 +2,7 @@
     {
         "name": "Annotation",
         "Description": "Non-quantiative annotation file",
+        "id": "annotation",
         "formats": [
             {"name": "bed", "can_be_lifted": true},
             {"name": "gff", "can_be_lifted": true},
@@ -14,6 +15,7 @@
     {
         "name": "Wiggle",
         "Description": "Quantitative genomic data",
+        "id": "wig",
         "formats": [
             {"name": "wig", "can_be_lifted": true},
             {"name": "bigWig", "can_be_lifted": false},
@@ -24,6 +26,7 @@
     {
         "name": "Alignment",
         "Description": "Alignment data",
+        "id": "alignment",
         "formats": [
             {"name": "bam", "can_be_lifted": false},
             {"name": "cram", "can_be_lifted": false},
@@ -33,6 +36,7 @@
     {
         "name": "Variant",
         "Description": "Variant data",
+        "id": "variant",
         "formats": [
             {"name": "vcf", "can_be_lifted": false}
         ]
