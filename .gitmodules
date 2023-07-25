@@ -1,0 +1,3 @@
+[submodule "easyliftover/lifters/pyliftover"]
+	path = easyliftover/lifters/pyliftover
+	url = git@github.com:nictru/pyliftover.git
