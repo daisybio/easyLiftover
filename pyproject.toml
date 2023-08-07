@@ -16,11 +16,16 @@ readme = "README.md"
 python = ">=3.9"
 requests = "^2.26.0"
 beautifulsoup4 = "^4.9.3"
+pybigwig = "^0.3.22"
+numpy = "^1.25.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.2.0"
 pytest-cov = "^4.1.0"
 flake8 = "^6.0.0"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.0"
 
 [tool.pytest.ini_options]
 addopts = "--cov --ignore=easyliftover/lifters/pyliftover"

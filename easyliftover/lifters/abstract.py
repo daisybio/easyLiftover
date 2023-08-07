@@ -24,20 +24,19 @@ class AbstractLifter(ABC):
 
     def convert_region(
         self, chromosome: str, start: int, end: int
-    ) -> "Tuple[str, str, str] | None":
+    ) -> "Tuple[str, int, int] | None":
         """
         Converts a genomic position from one genome build to another.
         """
-
-        print("Converting", chromosome, start, end)
 
         lifted_start = self.convert_coordinate(chromosome, start)
         lifted_end = self.convert_coordinate(chromosome, end)
 
         if lifted_start is None or lifted_end is None:
+            print(f"Could not lift {chromosome}:{start}-{end}")
             return None
 
-        return (lifted_start[0], str(lifted_start[1]), str(lifted_end[1]))
+        return (lifted_start[0], lifted_start[1], lifted_end[1])
 
     @abstractmethod
     def lift_path(self, path: str) -> str:

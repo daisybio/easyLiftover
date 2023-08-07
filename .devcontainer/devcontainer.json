@@ -20,7 +20,8 @@
 				"GitHub.copilot",
 				"donjayamanne.python-extension-pack",
 				"github.vscode-github-actions",
-				"ms-python.python"
+				"ms-python.python",
+				"GitHub.copilot-chat"
 			]
 		}
 	}

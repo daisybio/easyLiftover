@@ -17,8 +17,8 @@ class GffLifter(AbstractRowWiseTextLifter):
             lifted_chromosome, lifted_start, lifted_end = lifted
 
             splitted[0] = lifted_chromosome
-            splitted[3] = lifted_start
-            splitted[4] = lifted_end
+            splitted[3] = str(lifted_start)
+            splitted[4] = str(lifted_end)
 
             return "\t".join(splitted)
 

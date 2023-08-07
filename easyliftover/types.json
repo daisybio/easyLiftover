@@ -18,7 +18,7 @@
         "id": "wig",
         "formats": [
             {"name": "wig", "can_be_lifted": true},
-            {"name": "bigWig", "can_be_lifted": false},
+            {"name": "bigWig", "can_be_lifted": true},
             {"name": "bedGraph", "can_be_lifted": false},
             {"name": "Other", "can_be_lifted": false}
         ]

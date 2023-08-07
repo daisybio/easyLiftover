@@ -17,8 +17,8 @@ class BedLifter(AbstractRowWiseTextLifter):
             return "\t".join(
                 [
                     lifted_chromosome,
-                    lifted_start,
-                    lifted_end,
+                    str(lifted_start),
+                    str(lifted_end),
                     *rest,
                 ]
             )

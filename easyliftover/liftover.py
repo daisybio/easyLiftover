@@ -1,4 +1,4 @@
-from .lifters import BedLifter, GffLifter, WigLifter, AbstractLifter
+from .lifters import BedLifter, GffLifter, WigLifter, AbstractLifter, BigWigLifter
 import requests
 
 def get_lifter(fromGenome: str, toGenome: str, source: str, file_type: "str | None" = None):
@@ -9,6 +9,8 @@ def get_lifter(fromGenome: str, toGenome: str, source: str, file_type: "str | No
             return GffLifter
         elif c_type == "wig":
             return WigLifter
+        elif c_type == "bw" or c_type == "bigwig":
+            return BigWigLifter
         else:
             raise Exception("Unsupported file type")
         
