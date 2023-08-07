@@ -1,7 +1,7 @@
-from .abstract import AbstractRowWiseLifter
+from .abstract import AbstractRowWiseTextLifter
 
 
-class BedLifter(AbstractRowWiseLifter):
+class BedLifter(AbstractRowWiseTextLifter):
     """Lifter for bed files."""
 
     def __lift_row__(self, row: str) -> "str | None":

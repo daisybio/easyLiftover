@@ -1,50 +1,34 @@
 from .lifters import BedLifter, GffLifter, WigLifter, AbstractLifter
 import requests
 
-def __get_type(path: str) -> str:
-    return path.split(".")[-1]
+def get_lifter(fromGenome: str, toGenome: str, source: str, file_type: "str | None" = None):
+    def get_class(c_type):
+        if c_type == "bed":
+            return BedLifter
+        elif c_type in ["gff", "gff3", "gtf"]:
+            return GffLifter
+        elif c_type == "wig":
+            return WigLifter
+        else:
+            raise Exception("Unsupported file type")
+        
+    def __get_type(path: str) -> str:
+        return path.split(".")[-1]
+        
+    chosen_type = file_type if file_type is not None else __get_type(source)
+        
+    return get_class(chosen_type)(fromGenome, toGenome)
 
 def liftover_url(
     fromGenome: str, toGenome: str, url: str, file_type: "str | None" = None
 ) -> str:
-    chosen_type = file_type if file_type is not None else __get_type(url)
-    return liftover(fromGenome, toGenome, requests.get(url).text, chosen_type)
+    
+    lifter = get_lifter(fromGenome, toGenome, url, file_type)
+    
+    return lifter.lift_url(url)
 
 def liftover_path(
     fromGenome: str, toGenome: str, path: str, file_type: "str | None" = None
 ) -> str:
-    chosen_type = file_type if file_type is not None else __get_type(path)
-    return liftover(fromGenome, toGenome, open(path, "r").read(), chosen_type)
-
-def liftover(
-    fromGenome: str, toGenome: str, content: str, file_type: str
-) -> str:
-    """
-    Lifts a file from one genome build to another.
-
-    Parameters:
-        fromGenome (str): The genome build to lift from.
-        toGenome (str): The genome build to lift to.
-        path (str): The path to the file to lift.
-        file_type (str): The type of the file to lift. If not provided, the file extension will be used.
-
-    Returns:
-        str: The lifted file content.
-    """
-
-    if file_type == "bed":
-        LifterClass = BedLifter
-    elif file_type in ["gff", "gff3", "gtf"]:
-        LifterClass = GffLifter
-    elif file_type == "wig":
-        LifterClass = WigLifter
-    else:
-        raise Exception("Unsupported file type")
-
-    print("Initializing lifter", LifterClass, "with", fromGenome, toGenome)
-
-    lifter: AbstractLifter = LifterClass(fromGenome, toGenome)
-
-    print("Using lifter", LifterClass, "with", fromGenome, toGenome)
-
-    return lifter.lift(content)
+    lifter = get_lifter(fromGenome, toGenome, path, file_type)
+    return lifter.lift_path(path)

@@ -1,7 +1,7 @@
-from .abstract import AbstractRowWiseLifter
+from .abstract import AbstractRowWiseTextLifter
 
 
-class GffLifter(AbstractRowWiseLifter):
+class GffLifter(AbstractRowWiseTextLifter):
     """Lifter for gff files."""
 
     def __lift_row__(self, row: str) -> "str | None":

@@ -1,6 +1,7 @@
 from abc import ABC, abstractmethod
 from .pyliftover.pyliftover import LiftOver
 from typing import Tuple
+import requests
 
 
 class AbstractLifter(ABC):
@@ -39,19 +40,45 @@ class AbstractLifter(ABC):
         return (lifted_start[0], str(lifted_start[1]), str(lifted_end[1]))
 
     @abstractmethod
-    def lift(self, data: str) -> str:
-        """Lifts the data."""
+    def lift_path(self, path: str) -> str:
+        """Lifts a path."""
         raise NotImplementedError
 
+    @abstractmethod
+    def lift_url(self, url: str) -> str:
+        """Lifts a URL."""
+        raise NotImplementedError
+    
+class AbstractTextLifter(AbstractLifter):
+    """Abstract class for lifters of text-based files."""
+    
+    @abstractmethod
+    def lift_content(self, content: str) -> str:
+        """Lifts the content of a file."""
+        raise NotImplementedError
+    
+    def lift_path(self, path: str) -> str:
+        """Lifts a path."""
+        with open(path) as f:
+            content = f.read()
+        
+        return self.lift_content(content)
+    
+    def lift_url(self, url: str) -> str:
+        """Lifts a URL."""
+        response = requests.get(url)
+        
+        return self.lift_content(response.text)
 
-class AbstractRowWiseLifter(AbstractLifter):
+
+class AbstractRowWiseTextLifter(AbstractTextLifter):
     """Abstract class for row-wise lifters."""
 
-    def lift(self, data: str) -> str:
-        """Lifts the data."""
+    def lift_content(self, content: str) -> str:
+        """Lifts the content."""
         result = []
 
-        for row in data.split("\n"):
+        for row in content.split("\n"):
             if row == "" or row.startswith("#"):
                 continue
 

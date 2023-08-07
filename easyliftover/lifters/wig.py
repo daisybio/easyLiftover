@@ -1,13 +1,13 @@
-from .abstract import AbstractLifter
+from .abstract import AbstractTextLifter
 
 
-class WigLifter(AbstractLifter):
-    def lift(self, data: str) -> str:
+class WigLifter(AbstractTextLifter):
+    def lift_content(self, content: str) -> str:
         result = []
 
         chromosome: str | None = None
 
-        for line in data.splitlines():
+        for line in content.splitlines():
             splitted = line.split()
 
             if splitted[0] in ("fixedStep", "variableStep"):
