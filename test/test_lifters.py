@@ -18,6 +18,9 @@ def test_gff():
     
 def test_wig():
     __test__(WigLifter, 'hg19', 'hg38', 'test/data/hg19.wig', 'test/data/hg38.wig')
+    
+def test_bedgraph():
+    __test__(BedGraphLifter, 'hg19', 'hg38', 'test/data/hg19.bedgraph', 'test/data/hg38.bedgraph')
 
 def test_bigwig():
     lifter = BigWigLifter('hg38', 'hg19')

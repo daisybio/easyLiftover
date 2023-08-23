@@ -1,7 +1,6 @@
-from .lifters import BedLifter, GffLifter, WigLifter, AbstractLifter, BigWigLifter
-import requests
+from .lifters import BedLifter, GffLifter, WigLifter, AbstractLifter, BigWigLifter, BedGraphLifter
 
-def get_lifter(fromGenome: str, toGenome: str, source: str, file_type: "str | None" = None):
+def get_lifter(fromGenome: str, toGenome: str, source: str, file_type: "str | None" = None) -> AbstractLifter:
     def get_class(c_type):
         if c_type == "bed":
             return BedLifter
@@ -11,6 +10,8 @@ def get_lifter(fromGenome: str, toGenome: str, source: str, file_type: "str | No
             return WigLifter
         elif c_type == "bw" or c_type == "bigwig":
             return BigWigLifter
+        elif c_type == "bedgraph" or c_type == "bg":
+            return BedGraphLifter
         else:
             raise Exception("Unsupported file type")
         
@@ -19,7 +20,7 @@ def get_lifter(fromGenome: str, toGenome: str, source: str, file_type: "str | No
         
     chosen_type = file_type if file_type is not None else __get_type(source)
         
-    return get_class(chosen_type)(fromGenome, toGenome)
+    return get_class(chosen_type.lower())(fromGenome, toGenome)
 
 def liftover_url(
     fromGenome: str, toGenome: str, url: str, file_type: "str | None" = None

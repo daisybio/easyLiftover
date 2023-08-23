@@ -19,7 +19,7 @@
         "formats": [
             {"name": "wig", "can_be_lifted": true},
             {"name": "bigWig", "can_be_lifted": true},
-            {"name": "bedGraph", "can_be_lifted": false},
+            {"name": "bedGraph", "can_be_lifted": true},
             {"name": "Other", "can_be_lifted": false}
         ]
     },
