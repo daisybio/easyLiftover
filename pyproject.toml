@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "easyliftover"
-version = "0.0.10"
+version = "0.0.12"
 description = "A python package for lifting over biological files"
 license = "GPL3"
 authors = ["Nico Trummer <nictru32@gmail.com>"]
@@ -16,8 +16,11 @@ readme = "README.md"
 python = ">=3.9"
 requests = "^2.26.0"
 beautifulsoup4 = "^4.9.3"
-pybigwig = "^0.3.22"
-numpy = "^1.25.2"
+pybigwig = {version = "^0.3.22", optional = true}
+numpy = {version = "^1.25.2", optional = true}
+
+[tool.poetry.extras]
+bigwig = ["pybigwig", "numpy"]
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.2.0"

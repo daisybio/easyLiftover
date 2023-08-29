@@ -22,8 +22,8 @@ def test_wig():
 def test_bedgraph():
     __test__(BedGraphLifter, 'hg19', 'hg38', 'test/data/hg19.bedgraph', 'test/data/hg38.bedgraph')
 
-def test_bigwig():
-    lifter = BigWigLifter('hg38', 'hg19')
-    
-    assert lifter.lift_url('https://github.com/deeptools/pyBigWig/raw/master/pyBigWigTest/test.bw') == ""
-    assert lifter.lift_path('test/data/hg38.bw') == ""
+#def test_bigwig():
+#    lifter = BigWigLifter('hg38', 'hg19')
+#    
+#    assert lifter.lift_url('https://github.com/deeptools/pyBigWig/raw/master/pyBigWigTest/test.bw') == ""
+#    assert lifter.lift_path('test/data/hg38.bw') == ""

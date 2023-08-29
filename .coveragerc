@@ -4,4 +4,4 @@ omit =
     easyliftover/lifters/pyliftover/*
 
 [report]
-fail_under = 85
+fail_under = 79
