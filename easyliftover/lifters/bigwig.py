@@ -1,11 +1,11 @@
 from .abstract import AbstractLifter
-import pyBigWig
 import tempfile
 import requests
 
 class BigWigLifter(AbstractLifter):
     def lift_path(self, path: str) -> str:
         """Lifts a path."""
+        import pyBigWig
         bw = pyBigWig.open(path)
         
         return self.lift_bw(bw)
