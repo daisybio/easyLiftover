@@ -18,4 +18,4 @@ result = liftover_url(<fromGenome>, <toGenome>, <url>, <fileType>)
 The fileType parameter is optional. If it is not provided, the file type will be inferred from the file extension.
 
 ## Supported file types
-Information about which file types are supported can be found [here](https://github.com/biomedbigdata/easyLiftover/blob/main/src/types.json)
+Information about which file types are supported can be found [here](https://github.com/biomedbigdata/easyLiftover/blob/main/easyliftover/types.json)
