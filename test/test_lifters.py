@@ -13,6 +13,9 @@ def __test__(clazz, assembly1: str, assembly2: str, path_assembly1: str, path_as
 def test_bed():
     __test__(BedLifter, 'hg19', 'hg38', 'test/data/hg19.bed', 'test/data/hg38.bed')
     
+def test_vcf():
+    __test__(VcfLifter, 'hg19', 'hg38', 'test/data/hg19.vcf', 'test/data/hg38.vcf')
+    
 def test_gff():
     __test__(GffLifter, 'hg19', 'hg38', 'test/data/hg19.gff', 'test/data/hg38.gff')
     

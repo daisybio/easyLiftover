@@ -38,7 +38,7 @@
         "Description": "Variant data",
         "id": "variant",
         "formats": [
-            {"name": "vcf", "can_be_lifted": false}
+            {"name": "vcf", "can_be_lifted": true}
         ]
     }
 ]

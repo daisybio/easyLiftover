@@ -1,4 +1,4 @@
-from .lifters import BedLifter, GffLifter, WigLifter, AbstractLifter, BigWigLifter, BedGraphLifter
+from .lifters import BedLifter, GffLifter, WigLifter, AbstractLifter, BigWigLifter, BedGraphLifter, VcfLifter
 
 def get_lifter(fromGenome: str, toGenome: str, source: str, file_type: "str | None" = None) -> AbstractLifter:
     def get_class(c_type):
@@ -12,6 +12,8 @@ def get_lifter(fromGenome: str, toGenome: str, source: str, file_type: "str | No
             return BigWigLifter
         elif c_type == "bedgraph" or c_type == "bg":
             return BedGraphLifter
+        elif c_type == "vcf":
+            return VcfLifter
         else:
             raise Exception("Unsupported file type")
         
