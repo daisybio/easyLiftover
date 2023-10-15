@@ -1,11 +1,17 @@
 # easy-liftover
 
-This repository wraps the [pyliftover](https://pypi.org/project/pyliftover/) package to provide an option for lifting over whole files.
+This repository wraps the [pyliftover](https://pypi.org/project/pyliftover/) package to provide an option for lifting over common file types.
 
 ## Installation
+### PyPi
 This package is available via [PyPi](https://pypi.org/project/easyliftover/). To install it, run:
 ```
 pip install easyliftover
+```
+### Docker
+This package is also available as a [Docker image](https://hub.docker.com/r/bigdatainbiomedicine/easyliftover). To use it, run:
+```
+docker pull bigdatainbiomedicine/easyliftover
 ```
 
 ## Usage
