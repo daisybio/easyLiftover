@@ -1,5 +1,6 @@
 #!/bin/bash
 
-poetry run pytest && \
-    poetry build && \
-    poetry publish
+poetry build && \
+    poetry publish && \
+    docker build . -t bigdatainbiomedicine/easyliftover && \
+    docker push bigdatainbiomedicine/easyliftover
