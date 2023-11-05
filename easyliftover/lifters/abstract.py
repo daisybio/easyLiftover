@@ -36,7 +36,9 @@ class AbstractLifter(ABC):
             print(f"Could not lift {chromosome}:{start}-{end}")
             return None
 
-        return (lifted_start[0], lifted_start[1], lifted_end[1])
+        return (lifted_start[0], 
+                min(lifted_start[1], lifted_end[1]), 
+                max(lifted_start[1], lifted_end[1]))
 
     @abstractmethod
     def lift_path(self, path: str) -> str:
