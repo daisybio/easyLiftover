@@ -35,10 +35,16 @@ class AbstractLifter(ABC):
         if lifted_start is None or lifted_end is None:
             print(f"Could not lift {chromosome}:{start}-{end}")
             return None
+        
+        if lifted_start[0] != lifted_end[0]:
+            print(f"Chromosome changed from {chromosome} to {lifted_start[0]}")
+            return None
+        
+        if lifted_start[1] >= lifted_end[1]:
+            print(f"Start position {lifted_start[1]} is larger than end position {lifted_end[1]}")
+            return None
 
-        return (lifted_start[0], 
-                min(lifted_start[1], lifted_end[1]), 
-                max(lifted_start[1], lifted_end[1]))
+        return lifted_start[0], lifted_start[1], lifted_end[1]
 
     @abstractmethod
     def lift_path(self, path: str) -> str:
