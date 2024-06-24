@@ -1,0 +1,2893 @@
+{
+  "canFam2": [
+    "ailMel1",
+    "bosTau4",
+    "bosTau6",
+    "bosTau7",
+    "calJac1",
+    "calJac3",
+    "canFam1",
+    "canFam3",
+    "canFam6",
+    "equCab1",
+    "equCab2",
+    "felCat3",
+    "felCat4",
+    "hg17",
+    "hg18",
+    "hg19",
+    "mm7",
+    "mm8",
+    "mm9",
+    "monDom5",
+    "panTro2",
+    "panTro3",
+    "rn3",
+    "rn4"
+  ],
+  "felCat4": [
+    "ailMel1",
+    "canFam2",
+    "felCat3",
+    "felCat5",
+    "hg19",
+    "mm10",
+    "mm9",
+    "monDom5"
+  ],
+  "hg19": [
+    "ailMel1",
+    "allMis1",
+    "anoCar2",
+    "aplCal1",
+    "balAcu1",
+    "bosTau4",
+    "bosTau6",
+    "bosTau7",
+    "bosTau8",
+    "bosTau9",
+    "calJac1",
+    "calJac3",
+    "canFam2",
+    "canFam3",
+    "cavPor3",
+    "cerSim1",
+    "criGri1",
+    "danRer10",
+    "danRer6",
+    "danRer7",
+    "echTel1",
+    "echTel2",
+    "equCab2",
+    "eriEur2",
+    "felCat3",
+    "felCat4",
+    "felCat5",
+    "fr2",
+    "fr3",
+    "galGal3",
+    "galGal4",
+    "geoFor1",
+    "gorGor3",
+    "gorGor6",
+    "hg16",
+    "hg17",
+    "hg18",
+    "hg38",
+    "hs1",
+    "loxAfr3",
+    "macFas5",
+    "melGal1",
+    "micMur1",
+    "mm10",
+    "mm9",
+    "monDom5",
+    "musFur1",
+    "nomLeu1",
+    "nomLeu3",
+    "ochPri3",
+    "ornAna1",
+    "oryCun2",
+    "oviAri1",
+    "oviAri3",
+    "panPan2",
+    "panPan3",
+    "panTro2",
+    "panTro3",
+    "panTro4",
+    "panTro5",
+    "panTro6",
+    "papAnu2",
+    "petMar2",
+    "ponAbe2",
+    "ponAbe3",
+    "rheMac10",
+    "rheMac2",
+    "rheMac3",
+    "rheMac8",
+    "rn4",
+    "rn5",
+    "rn6",
+    "saiBol1",
+    "sarHar1",
+    "sorAra2",
+    "susScr11",
+    "susScr2",
+    "susScr3",
+    "taeGut2",
+    "tetNig2",
+    "vicPac2",
+    "xenTro3"
+  ],
+  "hg38": [
+    "ailMel1",
+    "allMis1",
+    "anoCar2",
+    "aptMan1",
+    "aquChr2",
+    "balAcu1",
+    "bisBis1",
+    "bosTau8",
+    "bosTau9",
+    "calJac3",
+    "calJac4",
+    "canFam3",
+    "canFam4",
+    "canFam5",
+    "canFam6",
+    "cavPor3",
+    "ce11",
+    "cerSim1",
+    "chlSab2",
+    "criGriChoV1",
+    "criGriChoV2",
+    "danRer10",
+    "danRer11",
+    "dasNov3",
+    "echTel2",
+    "enhLutNer1",
+    "equCab2",
+    "equCab3",
+    "eriEur2",
+    "felCat8",
+    "felCat9",
+    "fr3",
+    "gadMor1",
+    "galGal4",
+    "galGal5",
+    "galGal6",
+    "galVar1",
+    "gasAcu1",
+    "geoFor1",
+    "gorGor3",
+    "gorGor4",
+    "gorGor5",
+    "gorGor6",
+    "hetGla2",
+    "hg16",
+    "hg17",
+    "hg18",
+    "hg19",
+    "hs1",
+    "latCha1",
+    "loxAfr3",
+    "macEug2",
+    "macFas5",
+    "manPen1",
+    "melGal1",
+    "melGal5",
+    "melUnd1",
+    "micMur1",
+    "micMur2",
+    "mm10",
+    "mm39",
+    "monDom5",
+    "musFur1",
+    "nasLar1",
+    "neoSch1",
+    "nomLeu3",
+    "ochPri3",
+    "oreNil2",
+    "ornAna1",
+    "ornAna2",
+    "oryCun2",
+    "oryLat2",
+    "otoGar3",
+    "oviAri3",
+    "oviAri4",
+    "panPan1",
+    "panPan2",
+    "panPan3",
+    "panTro3",
+    "panTro4",
+    "panTro5",
+    "panTro6",
+    "papAnu2",
+    "papAnu4",
+    "petMar2",
+    "petMar3",
+    "ponAbe2",
+    "ponAbe3",
+    "pteVam1",
+    "rheMac10",
+    "rheMac2",
+    "rheMac3",
+    "rheMac8",
+    "rhiRox1",
+    "rn4",
+    "rn5",
+    "rn6",
+    "rn7",
+    "saiBol1",
+    "sarHar1",
+    "sorAra2",
+    "speTri2",
+    "susScr11",
+    "susScr3",
+    "taeGut2",
+    "tarSyr2",
+    "tetNig2",
+    "thaSir1",
+    "triMan1",
+    "tupBel1",
+    "turTru2",
+    "vicPac2",
+    "xenLae2",
+    "xenTro10",
+    "xenTro7",
+    "xenTro9"
+  ],
+  "mm9": [
+    "ailMel1",
+    "anoCar1",
+    "anoCar2",
+    "bosTau3",
+    "bosTau4",
+    "bosTau6",
+    "bosTau7",
+    "braFlo1",
+    "calJac1",
+    "calJac3",
+    "canFam2",
+    "canFam3",
+    "cavPor3",
+    "danRer5",
+    "danRer6",
+    "danRer7",
+    "echTel1",
+    "equCab1",
+    "equCab2",
+    "felCat4",
+    "fr2",
+    "galGal3",
+    "gasAcu1",
+    "hg18",
+    "hg19",
+    "loxAfr3",
+    "melGal1",
+    "mm10",
+    "mm39",
+    "mm8",
+    "monDom4",
+    "monDom5",
+    "ornAna1",
+    "oryCun2",
+    "oryLat2",
+    "oviAri1",
+    "panTro2",
+    "panTro3",
+    "petMar1",
+    "ponAbe2",
+    "rheMac2",
+    "rn4",
+    "rn5",
+    "susScr2",
+    "tetNig1",
+    "tetNig2",
+    "tupBel1",
+    "xenTro2",
+    "xenTro3"
+  ],
+  "mm10": [
+    "ailMel1",
+    "anoCar2",
+    "aquChr2",
+    "balAcu1",
+    "bisBis1",
+    "bosTau7",
+    "bosTau8",
+    "bosTau9",
+    "calJac3",
+    "calJac4",
+    "canFam3",
+    "canFam4",
+    "canFam5",
+    "canFam6",
+    "cavPor3",
+    "cerSim1",
+    "choHof1",
+    "chrPic1",
+    "criGriChoV1",
+    "criGriChoV2",
+    "danRer10",
+    "danRer11",
+    "danRer7",
+    "dasNov3",
+    "dipOrd1",
+    "echTel1",
+    "echTel2",
+    "enhLutNer1",
+    "equCab2",
+    "equCab3",
+    "eriEur1",
+    "felCat5",
+    "felCat9",
+    "fr3",
+    "gadMor1",
+    "galGal4",
+    "galGal5",
+    "galGal6",
+    "galVar1",
+    "gasAcu1",
+    "geoFor1",
+    "gorGor3",
+    "gorGor6",
+    "hetGla1",
+    "hetGla2",
+    "hg19",
+    "hg38",
+    "hs1",
+    "latCha1",
+    "loxAfr3",
+    "macEug2",
+    "manPen1",
+    "melGal1",
+    "melGal5",
+    "melUnd1",
+    "micMur1",
+    "mm39",
+    "mm8",
+    "mm9",
+    "monDom5",
+    "neoSch1",
+    "nomLeu1",
+    "nomLeu2",
+    "ochPri2",
+    "oreNil2",
+    "ornAna1",
+    "oryCun2",
+    "oryLat2",
+    "otoGar3",
+    "oviAri1",
+    "oviAri3",
+    "oviAri4",
+    "panPan2",
+    "panPan3",
+    "panTro4",
+    "panTro5",
+    "panTro6",
+    "papAnu4",
+    "papHam1",
+    "petMar2",
+    "petMar3",
+    "ponAbe2",
+    "ponAbe3",
+    "proCap1",
+    "pteVam1",
+    "rheMac10",
+    "rheMac3",
+    "rheMac8",
+    "rn5",
+    "rn6",
+    "rn7",
+    "saiBol1",
+    "sarHar1",
+    "sorAra1",
+    "sorAra2",
+    "speTri2",
+    "susScr11",
+    "susScr3",
+    "taeGut1",
+    "tarSyr1",
+    "tarSyr2",
+    "tetNig2",
+    "thaSir1",
+    "triMan1",
+    "tupBel1",
+    "turTru2",
+    "vicPac1",
+    "vicPac2",
+    "xenLae2",
+    "xenTro10",
+    "xenTro3",
+    "xenTro9"
+  ],
+  "monDom5": [
+    "ailMel1",
+    "bosTau6",
+    "bosTau7",
+    "calJac3",
+    "canFam2",
+    "cerSim1",
+    "danRer5",
+    "equCab2",
+    "felCat4",
+    "galGal3",
+    "hg19",
+    "hg38",
+    "loxAfr3",
+    "melGal1",
+    "melGal5",
+    "mm10",
+    "mm39",
+    "mm9",
+    "monDom4",
+    "neoSch1",
+    "ornAna1",
+    "oryCun2",
+    "oviAri1",
+    "panTro3",
+    "panTro6",
+    "petMar2",
+    "ponAbe2",
+    "rheMac10",
+    "rheMac2",
+    "rheMac3",
+    "rn5",
+    "rn6",
+    "susScr2",
+    "xenTro2",
+    "xenTro3",
+    "xenTro9"
+  ],
+  "rn4": [
+    "ailMel1",
+    "bosTau2",
+    "bosTau3",
+    "bosTau6",
+    "bosTau7",
+    "canFam2",
+    "canFam3",
+    "cavPor3",
+    "danRer3",
+    "danRer4",
+    "equCab1",
+    "galGal2",
+    "galGal3",
+    "hg17",
+    "hg18",
+    "hg19",
+    "hg38",
+    "melGal1",
+    "mm10",
+    "mm7",
+    "mm8",
+    "mm9",
+    "monDom4",
+    "monDom5",
+    "panTro2",
+    "rheMac2",
+    "rn3",
+    "rn5",
+    "xenTro2",
+    "xenTro3"
+  ],
+  "rn6": [
+    "ailMel1",
+    "bosTau8",
+    "calMil1",
+    "canFam3",
+    "cavPor3",
+    "danRer10",
+    "felCat8",
+    "galGal5",
+    "hg19",
+    "hg38",
+    "melGal5",
+    "mm10",
+    "mm39",
+    "monDom5",
+    "ornAna2",
+    "oryCun2",
+    "panTro5",
+    "rheMac10",
+    "rheMac8",
+    "rn3",
+    "rn4",
+    "rn5",
+    "rn7",
+    "tarSyr2",
+    "xenTro7"
+  ],
+  "anoCar2": [
+    "anoCar1",
+    "galGal3",
+    "gasAcu1",
+    "hg19",
+    "hg38",
+    "mm10",
+    "mm9",
+    "ornAna1",
+    "xenTro2",
+    "xenTro3",
+    "xenTro9"
+  ],
+  "galGal3": [
+    "anoCar1",
+    "anoCar2",
+    "braFlo1",
+    "cavPor3",
+    "danRer4",
+    "equCab1",
+    "equCab2",
+    "fr2",
+    "galGal2",
+    "galGal4",
+    "gasAcu1",
+    "hg18",
+    "hg19",
+    "melGal1",
+    "mm8",
+    "mm9",
+    "monDom4",
+    "monDom5",
+    "ornAna1",
+    "panTro3",
+    "petMar1",
+    "ponAbe2",
+    "rn4",
+    "taeGut1",
+    "xenTro2",
+    "xenTro3"
+  ],
+  "gasAcu1": [
+    "anoCar1",
+    "anoCar2",
+    "danRer10",
+    "danRer4",
+    "danRer6",
+    "danRer7",
+    "fr1",
+    "fr2",
+    "fr3",
+    "galGal3",
+    "hg18",
+    "hg19",
+    "hg38",
+    "mm10",
+    "mm8",
+    "mm9",
+    "oryLat2",
+    "tetNig1",
+    "tetNig2"
+  ],
+  "hg18": [
+    "anoCar1",
+    "bosTau2",
+    "bosTau3",
+    "bosTau4",
+    "braFlo1",
+    "calJac1",
+    "calJac3",
+    "canFam2",
+    "cavPor3",
+    "danRer3",
+    "danRer4",
+    "danRer5",
+    "echTel1",
+    "equCab1",
+    "felCat3",
+    "fr1",
+    "fr2",
+    "galGal2",
+    "galGal3",
+    "gasAcu1",
+    "gorGor4",
+    "hg16",
+    "hg17",
+    "hg19",
+    "mm7",
+    "mm8",
+    "mm9",
+    "monDom4",
+    "monDom5",
+    "ornAna1",
+    "oryLat2",
+    "panPan1",
+    "panTro1",
+    "panTro2",
+    "petMar1",
+    "ponAbe2",
+    "rheMac2",
+    "rn3",
+    "rn4",
+    "strPur2",
+    "tetNig1",
+    "xenTro1",
+    "xenTro2"
+  ],
+  "mm8": [
+    "anoCar1",
+    "bosTau2",
+    "bosTau3",
+    "canFam2",
+    "danRer3",
+    "danRer4",
+    "equCab1",
+    "felCat3",
+    "fr1",
+    "galGal2",
+    "galGal3",
+    "gasAcu1",
+    "hg17",
+    "hg18",
+    "mm7",
+    "mm9",
+    "monDom4",
+    "ornAna1",
+    "panTro1",
+    "panTro2",
+    "rheMac2",
+    "rn4",
+    "tetNig1",
+    "xenTro1",
+    "xenTro2"
+  ],
+  "ornAna1": [
+    "anoCar1",
+    "anoCar2",
+    "bosTau4",
+    "bosTau6",
+    "bosTau7",
+    "calJac1",
+    "equCab2",
+    "galGal3",
+    "hg18",
+    "hg19",
+    "hg38",
+    "mm10",
+    "mm8",
+    "mm9",
+    "monDom4",
+    "monDom5",
+    "ornAna2",
+    "ponAbe2"
+  ],
+  "xenTro2": [
+    "anoCar1",
+    "anoCar2",
+    "danRer4",
+    "danRer6",
+    "danRer7",
+    "galGal3",
+    "hg18",
+    "hg19",
+    "melGal1",
+    "mm9",
+    "monDom4",
+    "monDom5",
+    "rn4",
+    "xenTro1",
+    "xenTro3",
+    "xenTro7"
+  ],
+  "xenTro3": [
+    "anoCar2",
+    "danRer7",
+    "galGal3",
+    "hg19",
+    "melGal1",
+    "mm10",
+    "mm9",
+    "monDom5",
+    "rn4",
+    "rn5",
+    "xenTro2",
+    "xenTro7",
+    "xenTro9"
+  ],
+  "xenTro9": [
+    "anoCar2",
+    "canFam3",
+    "fr3",
+    "galGal5",
+    "hg38",
+    "mm10",
+    "mm39",
+    "monDom5",
+    "nanPar1",
+    "xenLae2",
+    "xenTro10",
+    "xenTro3",
+    "xenTro7"
+  ],
+  "anoGam3": [
+    "anoGam1",
+    "dm6"
+  ],
+  "dm2": [
+    "anoGam1",
+    "apiMel1",
+    "apiMel2",
+    "dm1",
+    "dm3",
+    "dp3",
+    "droAna1",
+    "droAna2",
+    "droEre1",
+    "droGri1",
+    "droMoj1",
+    "droMoj2",
+    "droPer1",
+    "droSec1",
+    "droSim1",
+    "droVir1",
+    "droVir2",
+    "droYak1",
+    "droYak2"
+  ],
+  "dm3": [
+    "anoGam1",
+    "dm2",
+    "dm6",
+    "dp3",
+    "droAna2",
+    "droEre1",
+    "droPer1",
+    "droSec1",
+    "droSim1",
+    "droVir2",
+    "droYak2"
+  ],
+  "dm6": [
+    "anoGam1",
+    "anoGam3",
+    "dm3",
+    "dp3",
+    "droPer1",
+    "droSec1",
+    "droSim1"
+  ],
+  "anoGam1": [
+    "anoGam3",
+    "dm2",
+    "dm3",
+    "dm6"
+  ],
+  "galGal5": [
+    "aquChr2",
+    "danRer10",
+    "galGal3",
+    "galGal4",
+    "galGal6",
+    "hg38",
+    "melGal5",
+    "mm10",
+    "rn6",
+    "xenTro9"
+  ],
+  "bosTau3": [
+    "bosTau2",
+    "hg18",
+    "mm8",
+    "mm9",
+    "rn4"
+  ],
+  "hg17": [
+    "bosTau2",
+    "canFam1",
+    "canFam2",
+    "galGal2",
+    "hg16",
+    "hg18",
+    "hg19",
+    "mm7",
+    "mm8",
+    "monDom4",
+    "panTro1",
+    "panTro2",
+    "rheMac2",
+    "rn3",
+    "rn4"
+  ],
+  "mm7": [
+    "bosTau2",
+    "canFam2",
+    "danRer3",
+    "echTel1",
+    "fr1",
+    "galGal2",
+    "hg17",
+    "hg18",
+    "mm8",
+    "panTro1",
+    "rn3",
+    "rn4",
+    "tetNig1",
+    "xenTro1"
+  ],
+  "bosTau4": [
+    "bosTau3",
+    "bosTau6",
+    "bosTau7",
+    "bosTau9",
+    "canFam2",
+    "hg18",
+    "hg19",
+    "mm9",
+    "monDom5",
+    "ornAna1",
+    "oviAri1",
+    "susScr2"
+  ],
+  "bosTau5": [
+    "bosTau4",
+    "bosTau6",
+    "bosTau7",
+    "bosTau9"
+  ],
+  "bosTau6": [
+    "bosTau4",
+    "bosTau7",
+    "bosTau8",
+    "bosTau9",
+    "canFam2",
+    "canFam3",
+    "equCab2",
+    "hg19",
+    "mm10",
+    "mm9",
+    "monDom5",
+    "ornAna1",
+    "rn4",
+    "susScr2"
+  ],
+  "bosTau9": [
+    "bosTau4",
+    "bosTau6",
+    "bosTau7",
+    "bosTau8",
+    "hg19",
+    "hg38",
+    "mm10",
+    "mm39"
+  ],
+  "bosTauMd3": [
+    "bosTau4"
+  ],
+  "oviAri1": [
+    "bosTau4",
+    "equCab2",
+    "hg19",
+    "mm10",
+    "mm39",
+    "mm9",
+    "monDom5",
+    "oviAri3"
+  ],
+  "susScr2": [
+    "bosTau4",
+    "bosTau6",
+    "bosTau7",
+    "hg19",
+    "mm10",
+    "mm9",
+    "monDom5",
+    "susScr3"
+  ],
+  "bosTau7": [
+    "bosTau6",
+    "bosTau8",
+    "bosTau9",
+    "canFam2",
+    "canFam3",
+    "cerSim1",
+    "hg19",
+    "mm10",
+    "mm9",
+    "monDom5",
+    "ornAna1",
+    "rn4",
+    "rn5",
+    "susScr2",
+    "turTru2",
+    "vicPac1"
+  ],
+  "bosTau8": [
+    "bosTau6",
+    "bosTau7",
+    "bosTau9",
+    "equCab2",
+    "hg19",
+    "hg38",
+    "mm10",
+    "oviAri3",
+    "rn6"
+  ],
+  "canFam3": [
+    "bosTau6",
+    "canFam2",
+    "canFam4",
+    "canFam5",
+    "canFam6",
+    "felCat8",
+    "hg19",
+    "hg38",
+    "mm10",
+    "mm39",
+    "musFur1",
+    "rn5",
+    "rn6",
+    "tarSyr2",
+    "xenTro9"
+  ],
+  "equCab2": [
+    "bosTau6",
+    "bosTau8",
+    "canFam2",
+    "canFam3",
+    "equCab1",
+    "equCab3",
+    "galGal3",
+    "hg19",
+    "hg38",
+    "mm10",
+    "mm9",
+    "monDom5",
+    "ornAna1",
+    "oviAri1",
+    "oviAri3",
+    "panTro3"
+  ],
+  "cerSim1": [
+    "bosTau7",
+    "hg19",
+    "hg38",
+    "mm10",
+    "monDom5"
+  ],
+  "turTru2": [
+    "bosTau7",
+    "hg38",
+    "mm10",
+    "mm39"
+  ],
+  "vicPac1": [
+    "bosTau7",
+    "hg19",
+    "mm10"
+  ],
+  "oviAri3": [
+    "bosTau8",
+    "equCab2",
+    "hg19",
+    "hg38",
+    "mm10",
+    "oviAri1",
+    "oviAri4",
+    "susScr3"
+  ],
+  "gCF_003121395": [
+    "bosTau9",
+    "hg38",
+    "hs1",
+    "mm10",
+    "mm39"
+  ],
+  "gCF_003369695": [
+    "bosTau9"
+  ],
+  "gCF_019923935": [
+    "bosTau9",
+    "hg19",
+    "hg38",
+    "mm10",
+    "mm39"
+  ],
+  "mm39": [
+    "bosTau9",
+    "calJac4",
+    "canFam3",
+    "canFam5",
+    "canFam6",
+    "cavPor3",
+    "danRer11",
+    "echTel2",
+    "equCab3",
+    "eriEur2",
+    "felCat9",
+    "galGal6",
+    "galVar1",
+    "gorGor6",
+    "hg38",
+    "hs1",
+    "loxAfr3",
+    "manPen1",
+    "mm10",
+    "mm9",
+    "monDom5",
+    "neoSch1",
+    "ochPri3",
+    "oryCun2",
+    "otoGar3",
+    "oviAri1",
+    "oviAri4",
+    "panPan3",
+    "panTro6",
+    "petMar3",
+    "rheMac10",
+    "rn6",
+    "rn7",
+    "sorAra2",
+    "speTri2",
+    "susScr11",
+    "susScr3",
+    "tarSyr2",
+    "tupBel1",
+    "turTru2",
+    "xenTro10",
+    "xenTro9"
+  ],
+  "petMar1": [
+    "braFlo1",
+    "galGal3",
+    "hg18",
+    "hg19",
+    "mm10",
+    "mm9",
+    "oryLat2",
+    "petMar3"
+  ],
+  "ce6": [
+    "caeJap1",
+    "caePb2",
+    "caeRem3",
+    "cb3",
+    "ce10",
+    "ce11",
+    "ce4",
+    "priPac1"
+  ],
+  "caePb2": [
+    "caePb1",
+    "ce6"
+  ],
+  "caeRem2": [
+    "caePb1",
+    "cb3",
+    "ce4",
+    "priPac1"
+  ],
+  "cb3": [
+    "caePb1",
+    "caeRem2",
+    "ce4",
+    "ce6",
+    "priPac1"
+  ],
+  "ce4": [
+    "caePb1",
+    "caeRem2",
+    "cb3",
+    "ce2",
+    "ce6",
+    "priPac1"
+  ],
+  "priPac1": [
+    "caePb1",
+    "caeRem2",
+    "cb3",
+    "ce4",
+    "ce6"
+  ],
+  "caePb1": [
+    "caeRem2",
+    "cb3",
+    "ce4",
+    "priPac1"
+  ],
+  "caeRem3": [
+    "caeRem2",
+    "caeRem2",
+    "ce6"
+  ],
+  "calJac3": [
+    "calJac1",
+    "calJac4",
+    "canFam2",
+    "gorGor3",
+    "hg18",
+    "hg19",
+    "hg38",
+    "micMur1",
+    "mm10",
+    "mm9",
+    "monDom5",
+    "panTro2",
+    "panTro3",
+    "panTro4",
+    "panTro5",
+    "papHam1",
+    "ponAbe2",
+    "rheMac2",
+    "rheMac3",
+    "rheMac8",
+    "tarSyr2"
+  ],
+  "monDom4": [
+    "calJac1",
+    "cavPor3",
+    "danRer4",
+    "galGal3",
+    "hg17",
+    "hg18",
+    "mm8",
+    "mm9",
+    "ornAna1",
+    "panTro2",
+    "ponAbe2",
+    "rn4",
+    "xenTro2"
+  ],
+  "panTro2": [
+    "calJac1",
+    "calJac3",
+    "equCab1",
+    "hg17",
+    "hg18",
+    "hg19",
+    "mm8",
+    "mm9",
+    "monDom4",
+    "monDom5",
+    "panTro1",
+    "panTro3",
+    "panTro5",
+    "ponAbe2",
+    "rheMac2",
+    "rn4"
+  ],
+  "ponAbe2": [
+    "calJac1",
+    "calJac3",
+    "gorGor3",
+    "hg18",
+    "hg19",
+    "hg38",
+    "mm10",
+    "mm9",
+    "monDom4",
+    "monDom5",
+    "ornAna1",
+    "panTro2",
+    "panTro3",
+    "panTro4",
+    "ponAbe3",
+    "rheMac2",
+    "rheMac3",
+    "tarSyr2"
+  ],
+  "rheMac2": [
+    "calJac1",
+    "calJac3",
+    "chlSab2",
+    "gorGor3",
+    "hg17",
+    "hg18",
+    "hg19",
+    "hg38",
+    "macFas5",
+    "mm10",
+    "mm8",
+    "mm9",
+    "monDom5",
+    "panTro2",
+    "panTro3",
+    "papAnu2",
+    "ponAbe2",
+    "rheMac3",
+    "rheMac8",
+    "rn4"
+  ],
+  "calJac4": [
+    "calJac3",
+    "hg38",
+    "macFas5",
+    "mm10",
+    "mm39",
+    "rheMac10"
+  ],
+  "gorGor3": [
+    "calJac3",
+    "gorGor4",
+    "hg19",
+    "hg38",
+    "micMur1",
+    "mm10",
+    "nomLeu1",
+    "panTro3",
+    "papHam1",
+    "ponAbe2",
+    "rheMac2",
+    "rheMac3",
+    "tarSyr1",
+    "tarSyr2"
+  ],
+  "micMur1": [
+    "calJac3",
+    "gorGor3",
+    "hg19",
+    "hg38",
+    "micMur2",
+    "mm10",
+    "tarSyr2"
+  ],
+  "panTro3": [
+    "calJac3",
+    "canFam2",
+    "danRer7",
+    "equCab2",
+    "galGal3",
+    "gorGor3",
+    "hg19",
+    "hg38",
+    "mm10",
+    "mm9",
+    "monDom5",
+    "panTro2",
+    "panTro5",
+    "ponAbe2",
+    "rheMac2"
+  ],
+  "panTro4": [
+    "calJac3",
+    "canFam3",
+    "gorGor4",
+    "gorGor5",
+    "hg18",
+    "hg19",
+    "hg38",
+    "mm10",
+    "panPan2",
+    "panTro2",
+    "panTro3",
+    "panTro5",
+    "ponAbe2",
+    "rheMac3",
+    "rn5",
+    "tarSyr2"
+  ],
+  "panTro5": [
+    "calJac3",
+    "gorGor5",
+    "hg19",
+    "hg38",
+    "mm10",
+    "panTro2",
+    "panTro3",
+    "panTro4",
+    "panTro6",
+    "rheMac8",
+    "rn6"
+  ],
+  "papHam1": [
+    "calJac3",
+    "gorGor3",
+    "hg19",
+    "macFas5",
+    "mm10",
+    "papAnu2"
+  ],
+  "rheMac3": [
+    "calJac3",
+    "canFam3",
+    "gorGor3",
+    "hg19",
+    "hg38",
+    "mm10",
+    "monDom5",
+    "panTro4",
+    "ponAbe2",
+    "rheMac2",
+    "rheMac8",
+    "rn5",
+    "tarSyr2"
+  ],
+  "rheMac8": [
+    "calJac3",
+    "chlSab2",
+    "hg19",
+    "hg38",
+    "mm10",
+    "panTro5",
+    "rheMac10",
+    "rheMac2",
+    "rheMac3",
+    "rn6"
+  ],
+  "tarSyr2": [
+    "calJac3",
+    "canFam3",
+    "chlSab2",
+    "gorGor3",
+    "hg38",
+    "macFas5",
+    "micMur1",
+    "micMur2",
+    "mm10",
+    "mm39",
+    "nasLar1",
+    "nomLeu3",
+    "otoGar3",
+    "panPan1",
+    "panTro4",
+    "papAnu2",
+    "ponAbe2",
+    "rheMac3",
+    "rhiRox1",
+    "rn6",
+    "saiBol1",
+    "tarSyr1",
+    "tupBel1"
+  ],
+  "macFas5": [
+    "calJac4",
+    "hg19",
+    "hg38",
+    "panTro6",
+    "papHam1",
+    "rheMac10",
+    "rheMac2",
+    "tarSyr2"
+  ],
+  "rheMac10": [
+    "calJac4",
+    "canFam4",
+    "hg19",
+    "hg38",
+    "loxAfr3",
+    "macFas5",
+    "mm10",
+    "mm39",
+    "monDom5",
+    "neoSch1",
+    "ornAna2",
+    "panTro6",
+    "papAnu2",
+    "rheMac8",
+    "rn6"
+  ],
+  "mm5": [
+    "canFam1",
+    "galGal2",
+    "hg16",
+    "hg17",
+    "mm7",
+    "rn3"
+  ],
+  "mm6": [
+    "canFam1",
+    "canFam2",
+    "fr1",
+    "galGal2",
+    "hg16",
+    "hg17",
+    "mm7",
+    "panTro1",
+    "rn3",
+    "tetNig1",
+    "xenTro1"
+  ],
+  "ailMel1": [
+    "canFam2",
+    "canFam3",
+    "felCat4",
+    "hg19",
+    "hg38",
+    "mm10",
+    "mm9",
+    "monDom5",
+    "rn4",
+    "rn5",
+    "rn6"
+  ],
+  "calJac1": [
+    "canFam2",
+    "hg18",
+    "hg19",
+    "mm9",
+    "monDom4",
+    "ornAna1",
+    "panTro2",
+    "ponAbe2",
+    "rheMac2"
+  ],
+  "canFam6": [
+    "canFam2",
+    "canFam3",
+    "canFam4",
+    "canFam5",
+    "hg38",
+    "mm10",
+    "mm39"
+  ],
+  "equCab1": [
+    "canFam2",
+    "galGal3",
+    "hg18",
+    "mm8",
+    "mm9",
+    "panTro2",
+    "rn4"
+  ],
+  "rn3": [
+    "canFam2",
+    "hg16",
+    "hg17",
+    "hg18",
+    "mm7",
+    "rn4"
+  ],
+  "canFam4": [
+    "canFam3",
+    "canFam5",
+    "canFam6",
+    "hg38",
+    "mm10",
+    "neoSch1",
+    "panTro6",
+    "rheMac10"
+  ],
+  "canFam5": [
+    "canFam3",
+    "canFam4",
+    "canFam6",
+    "hg38",
+    "mm10",
+    "mm39"
+  ],
+  "felCat8": [
+    "canFam3",
+    "felCat3",
+    "felCat4",
+    "felCat5",
+    "felCat9",
+    "hg38",
+    "rn6"
+  ],
+  "gCF_014441545": [
+    "canFam3",
+    "hg19"
+  ],
+  "galGal4": [
+    "canFam3",
+    "galGal3",
+    "galGal5",
+    "galGal6",
+    "geoFor1",
+    "hg19",
+    "hg38",
+    "mm10",
+    "petMar2",
+    "rn5",
+    "taeGut2"
+  ],
+  "lepWed1": [
+    "canFam3",
+    "hg38",
+    "musFur1"
+  ],
+  "musFur1": [
+    "canFam3",
+    "hg38"
+  ],
+  "myoLuc2": [
+    "canFam3",
+    "hg19",
+    "hg38",
+    "mm10"
+  ],
+  "odoRosDiv1": [
+    "canFam3",
+    "hg38",
+    "musFur1"
+  ],
+  "pteVam1": [
+    "canFam3",
+    "hg19",
+    "hg38",
+    "mm10"
+  ],
+  "rn5": [
+    "canFam3",
+    "hg19",
+    "hg38",
+    "mm10",
+    "mm9",
+    "monDom5",
+    "panTro4",
+    "rheMac3",
+    "rn4",
+    "rn6",
+    "rn7"
+  ],
+  "sorAra2": [
+    "canFam3",
+    "hg19",
+    "hg38",
+    "mm10",
+    "mm39",
+    "sorAra1"
+  ],
+  "neoSch1": [
+    "canFam4",
+    "hg38",
+    "loxAfr3",
+    "mm10",
+    "mm39",
+    "monDom5",
+    "ornAna2",
+    "panTro6",
+    "rheMac10"
+  ],
+  "panTro6": [
+    "canFam4",
+    "hg19",
+    "hg38",
+    "loxAfr3",
+    "macFas5",
+    "mm10",
+    "mm39",
+    "monDom5",
+    "neoSch1",
+    "ornAna2",
+    "panTro5",
+    "ponAbe3",
+    "rheMac10"
+  ],
+  "galVar1": [
+    "cavPor3",
+    "hg38",
+    "mm10",
+    "mm39",
+    "tupBel1"
+  ],
+  "oryCun1": [
+    "cavPor3",
+    "hg18",
+    "hg19"
+  ],
+  "oryCun2": [
+    "cavPor3",
+    "hg19",
+    "hg38",
+    "mm10",
+    "mm39",
+    "mm9",
+    "monDom5",
+    "rn6"
+  ],
+  "caeAng1": [
+    "ce10"
+  ],
+  "caeJap4": [
+    "ce10"
+  ],
+  "caePb3": [
+    "ce10"
+  ],
+  "caeRem4": [
+    "ce10"
+  ],
+  "caeSp71": [
+    "ce10"
+  ],
+  "caeSp91": [
+    "ce10"
+  ],
+  "caeSp111": [
+    "ce10"
+  ],
+  "cb4": [
+    "ce10"
+  ],
+  "ce11": [
+    "ce10",
+    "ce6",
+    "ci3",
+    "hg38"
+  ],
+  "ce10": [
+    "ce11",
+    "ce4",
+    "ce6"
+  ],
+  "ci3": [
+    "ce11",
+    "ci2"
+  ],
+  "ce5ToCe6": [
+    "ce6"
+  ],
+  "caeJap1": [
+    "ce6"
+  ],
+  "strPur2": [
+    "ci2",
+    "ci3",
+    "hg18",
+    "strPur1"
+  ],
+  "ci2": [
+    "ci3",
+    "strPur2"
+  ],
+  "cioSav2": [
+    "ci3"
+  ],
+  "criGriChoV1": [
+    "criGri1",
+    "criGriChoV2",
+    "hg38",
+    "mm10"
+  ],
+  "criGriChoV2": [
+    "criGri1",
+    "criGriChoV1",
+    "hg38",
+    "mm10"
+  ],
+  "criGri1": [
+    "criGriChoV1",
+    "criGriChoV2",
+    "hg19",
+    "hg38",
+    "mm10"
+  ],
+  "danRer7": [
+    "danRer10",
+    "danRer11",
+    "danRer6",
+    "fr2",
+    "fr3",
+    "gasAcu1",
+    "hg19",
+    "melGal1",
+    "mm10",
+    "mm9",
+    "oryLat2",
+    "panTro3",
+    "rn5",
+    "tetNig2",
+    "xenTro2",
+    "xenTro3"
+  ],
+  "danRer11": [
+    "danRer10",
+    "danRer7",
+    "hg38",
+    "mm10",
+    "mm39"
+  ],
+  "fr3": [
+    "danRer10",
+    "danRer7",
+    "fr2",
+    "gadMor1",
+    "gasAcu1",
+    "hg38",
+    "latCha1",
+    "mm10",
+    "oryLat2",
+    "tetNig2",
+    "xenTro9"
+  ],
+  "oryLat2": [
+    "danRer10",
+    "danRer5",
+    "danRer6",
+    "danRer7",
+    "fr2",
+    "fr3",
+    "gasAcu1",
+    "hg18",
+    "hg19",
+    "hg38",
+    "mm10",
+    "mm9",
+    "petMar1",
+    "petMar2",
+    "tetNig1",
+    "tetNig2"
+  ],
+  "tetNig2": [
+    "danRer10",
+    "danRer6",
+    "danRer7",
+    "fr2",
+    "fr3",
+    "gasAcu1",
+    "hg19",
+    "hg38",
+    "mm10",
+    "mm9",
+    "oryLat2",
+    "tetNig1"
+  ],
+  "xenTro7": [
+    "danRer10",
+    "hg38",
+    "melGal5",
+    "nanPar1",
+    "rn6",
+    "xenTro10",
+    "xenTro2",
+    "xenTro3",
+    "xenTro9"
+  ],
+  "danRer10": [
+    "danRer11",
+    "danRer7",
+    "fr3",
+    "galGal5",
+    "gasAcu1",
+    "hg19",
+    "hg38",
+    "melGal5",
+    "mm10",
+    "oryLat2",
+    "rn6",
+    "tetNig2",
+    "xenTro7"
+  ],
+  "danRer2": [
+    "danRer3",
+    "galGal2",
+    "hg17"
+  ],
+  "danRer4": [
+    "danRer3",
+    "danRer5",
+    "fr1",
+    "fr2",
+    "galGal3",
+    "gasAcu1",
+    "hg18",
+    "monDom4",
+    "panTro2",
+    "rn4",
+    "tetNig1",
+    "xenTro2"
+  ],
+  "fr1": [
+    "danRer3",
+    "danRer4",
+    "gasAcu1",
+    "hg18",
+    "mm7",
+    "mm8"
+  ],
+  "tetNig1": [
+    "danRer3",
+    "danRer4",
+    "danRer5",
+    "fr2",
+    "galGal2",
+    "gasAcu1",
+    "hg17",
+    "hg18",
+    "hg19",
+    "mm7",
+    "mm8",
+    "mm9",
+    "oryLat2"
+  ],
+  "danRer3": [
+    "danRer4",
+    "fr1",
+    "hg17",
+    "hg18",
+    "mm7",
+    "mm8",
+    "monDom4",
+    "rn4",
+    "tetNig1"
+  ],
+  "danRer5": [
+    "danRer4",
+    "danRer6",
+    "fr2",
+    "hg18",
+    "hg19",
+    "mm9",
+    "monDom5",
+    "oryLat2",
+    "tetNig1"
+  ],
+  "fr2": [
+    "danRer4",
+    "danRer5",
+    "danRer7",
+    "fr1",
+    "galGal3",
+    "gasAcu1",
+    "hg18",
+    "hg19",
+    "mm9",
+    "oryLat2",
+    "tetNig1",
+    "tetNig2"
+  ],
+  "danRer6": [
+    "danRer5",
+    "danRer7",
+    "gasAcu1",
+    "hg19",
+    "mm9",
+    "oryLat2",
+    "tetNig2",
+    "xenTro2"
+  ],
+  "melGal1": [
+    "danRer7",
+    "galGal3",
+    "geoFor1",
+    "hg19",
+    "hg38",
+    "melGal5",
+    "mm10",
+    "mm9",
+    "monDom5",
+    "rn4",
+    "rn5",
+    "taeGut1",
+    "taeGut2",
+    "xenTro3"
+  ],
+  "apiMel2": [
+    "dm2"
+  ],
+  "dp3": [
+    "dm2",
+    "dm3",
+    "dm6",
+    "droPer1"
+  ],
+  "dp4": [
+    "dm2",
+    "dm3",
+    "dm6",
+    "dp3"
+  ],
+  "droAna1": [
+    "dm2"
+  ],
+  "droAna2": [
+    "dm2",
+    "dm3"
+  ],
+  "droAna3": [
+    "dm2",
+    "dm3",
+    "dm6"
+  ],
+  "droEre1": [
+    "dm2",
+    "dm3"
+  ],
+  "droEre2": [
+    "dm2",
+    "dm3",
+    "dm6"
+  ],
+  "droGri1": [
+    "dm2"
+  ],
+  "droGri2": [
+    "dm2",
+    "dm3"
+  ],
+  "droMoj1": [
+    "dm2"
+  ],
+  "droMoj2": [
+    "dm2"
+  ],
+  "droMoj3": [
+    "dm2",
+    "dm3",
+    "droMoj2"
+  ],
+  "droPer1": [
+    "dm2",
+    "dm3",
+    "dm6",
+    "dp3"
+  ],
+  "droSec1": [
+    "dm2",
+    "dm3",
+    "dm6"
+  ],
+  "droSim1": [
+    "dm2",
+    "dm3",
+    "dm6"
+  ],
+  "droVir1": [
+    "dm2"
+  ],
+  "droVir2": [
+    "dm2",
+    "dm3"
+  ],
+  "droVir3": [
+    "dm2",
+    "dm3",
+    "dm6"
+  ],
+  "droWil1": [
+    "dm2",
+    "dm3"
+  ],
+  "droYak1": [
+    "dm2"
+  ],
+  "droYak2": [
+    "dm2",
+    "dm3",
+    "droYak1"
+  ],
+  "apiMel3": [
+    "dm3"
+  ],
+  "droSim2": [
+    "dm3",
+    "droSec1"
+  ],
+  "triCas2": [
+    "dm3"
+  ],
+  "gCA_003448975": [
+    "dm6"
+  ],
+  "gCF_004382195": [
+    "dm6"
+  ],
+  "gCF_009870125": [
+    "dm6"
+  ],
+  "gCF_016746365": [
+    "dm6"
+  ],
+  "gCF_016746395": [
+    "dm6"
+  ],
+  "gCF_017639315": [
+    "dm6"
+  ],
+  "gCF_018902025": [
+    "dm6"
+  ],
+  "gSE120751_Dvir_HiC": [
+    "dm6"
+  ],
+  "echTel2": [
+    "echTel1",
+    "hg19",
+    "hg38",
+    "mm10",
+    "mm39"
+  ],
+  "equCab3": [
+    "equCab2",
+    "hg38",
+    "mm10",
+    "mm39"
+  ],
+  "eriEur2": [
+    "eriEur1",
+    "hg19",
+    "hg38",
+    "mm39"
+  ],
+  "felCat3": [
+    "felCat4",
+    "hg19"
+  ],
+  "felCat5": [
+    "felCat4",
+    "felCat8",
+    "felCat9",
+    "hg19",
+    "mm10"
+  ],
+  "felCat9": [
+    "felCat5",
+    "felCat8",
+    "hg38",
+    "mm10",
+    "mm39"
+  ],
+  "gCF_027475565": [
+    "felCat9"
+  ],
+  "gadMor1": [
+    "fr3",
+    "hg38",
+    "mm10"
+  ],
+  "latCha1": [
+    "fr3",
+    "hg38",
+    "mm10"
+  ],
+  "oreNil1": [
+    "fr3",
+    "mm10"
+  ],
+  "takFla1": [
+    "fr3",
+    "hg38"
+  ],
+  "monDom1": [
+    "galGal2",
+    "hg17"
+  ],
+  "xenTro1": [
+    "galGal2",
+    "hg17",
+    "hg18",
+    "mm7",
+    "mm8",
+    "rn4"
+  ],
+  "anoCar1": [
+    "galGal3",
+    "gasAcu1",
+    "hg18",
+    "hg19",
+    "mm8",
+    "mm9",
+    "ornAna1",
+    "xenTro2"
+  ],
+  "braFlo1": [
+    "galGal3",
+    "hg18",
+    "mm9",
+    "petMar1"
+  ],
+  "cavPor3": [
+    "galGal3",
+    "galVar1",
+    "hg18",
+    "hg19",
+    "hg38",
+    "mm10",
+    "mm39",
+    "mm9",
+    "monDom4",
+    "oryCun2",
+    "rn4",
+    "rn5",
+    "rn6"
+  ],
+  "taeGut1": [
+    "galGal3",
+    "geoFor1",
+    "hg19",
+    "melGal1",
+    "mm10"
+  ],
+  "galGal6": [
+    "galGal4",
+    "galGal5",
+    "hg38",
+    "mm10",
+    "mm39"
+  ],
+  "geoFor1": [
+    "galGal4",
+    "hg19",
+    "hg38",
+    "melGal1",
+    "melGal5",
+    "melUnd1",
+    "mm10",
+    "taeGut1",
+    "taeGut2"
+  ],
+  "petMar2": [
+    "galGal4",
+    "hg19",
+    "hg38",
+    "mm10",
+    "monDom5",
+    "oryLat2",
+    "petMar1",
+    "petMar3"
+  ],
+  "taeGut2": [
+    "galGal4",
+    "geoFor1",
+    "hg19",
+    "hg38",
+    "melGal1",
+    "melGal5",
+    "taeGut1"
+  ],
+  "aquChr2": [
+    "galGal5",
+    "hg38",
+    "mm10"
+  ],
+  "gCF_016699485": [
+    "galGal5",
+    "galGal6",
+    "hg38",
+    "mm10",
+    "mm39"
+  ],
+  "melGal5": [
+    "galGal5",
+    "hg38",
+    "melGal1",
+    "mm10",
+    "monDom5",
+    "rn6"
+  ],
+  "pelSin1": [
+    "galGal5",
+    "hg38",
+    "mm10"
+  ],
+  "gCA_013030995": [
+    "galGal6",
+    "hg38",
+    "mm39",
+    "susScr11"
+  ],
+  "tupBel1": [
+    "galVar1",
+    "hg19",
+    "hg38",
+    "mm10",
+    "mm39",
+    "tarSyr2"
+  ],
+  "melUnd1": [
+    "geoFor1",
+    "hg38",
+    "mm10"
+  ],
+  "gorGor4": [
+    "gorGor3",
+    "gorGor5",
+    "gorGor6",
+    "hg18",
+    "hg38"
+  ],
+  "nomLeu1": [
+    "gorGor3",
+    "hg19",
+    "mm10"
+  ],
+  "otoGar1": [
+    "gorGor3",
+    "hg19"
+  ],
+  "tarSyr1": [
+    "gorGor3",
+    "hg19",
+    "mm10",
+    "tarSyr2"
+  ],
+  "gorGor5": [
+    "gorGor4",
+    "gorGor6",
+    "hg19",
+    "hg38",
+    "mm10",
+    "panPan2",
+    "panTro4",
+    "panTro5"
+  ],
+  "panPan2": [
+    "gorGor5",
+    "hg19",
+    "hg38",
+    "mm10",
+    "panPan1",
+    "panPan3",
+    "panTro4"
+  ],
+  "hetGla2": [
+    "hetGla1",
+    "hg38",
+    "mm10"
+  ],
+  "galGal2": [
+    "hg16",
+    "hg17",
+    "hg18",
+    "mm7",
+    "mm8",
+    "monDom4",
+    "panTro2",
+    "rn4",
+    "xenTro2"
+  ],
+  "mm4": [
+    "hg16"
+  ],
+  "panTro1": [
+    "hg16",
+    "hg17",
+    "hg18",
+    "mm7",
+    "mm8",
+    "panTro2"
+  ],
+  "bosTau1": [
+    "hg17"
+  ],
+  "bosTau2": [
+    "hg17",
+    "hg18",
+    "mm7",
+    "mm8",
+    "rn4"
+  ],
+  "canFam1": [
+    "hg17"
+  ],
+  "echTel1": [
+    "hg17",
+    "hg18",
+    "hg19",
+    "mm10",
+    "mm7",
+    "mm8",
+    "mm9"
+  ],
+  "hg15": [
+    "hg17",
+    "hg19"
+  ],
+  "hg16": [
+    "hg17",
+    "panTro1"
+  ],
+  "rheMac1": [
+    "hg17",
+    "mm7"
+  ],
+  "dasNov1": [
+    "hg18"
+  ],
+  "loxAfr1": [
+    "hg18"
+  ],
+  "panPan1": [
+    "hg18",
+    "hg38",
+    "panPan2",
+    "panPan3",
+    "tarSyr2"
+  ],
+  "allMis1": [
+    "hg19",
+    "hg38"
+  ],
+  "aplCal1": [
+    "hg19"
+  ],
+  "balAcu1": [
+    "hg19",
+    "hg38",
+    "mm10"
+  ],
+  "chlSab1": [
+    "hg19"
+  ],
+  "choHof1": [
+    "hg19",
+    "mm10"
+  ],
+  "dasNov2": [
+    "hg19",
+    "mm10"
+  ],
+  "dasNov3": [
+    "hg19",
+    "hg38",
+    "mm10"
+  ],
+  "dipOrd1": [
+    "hg19",
+    "mm10"
+  ],
+  "eriEur1": [
+    "hg19",
+    "mm10"
+  ],
+  "gCF_002742125": [
+    "hg19",
+    "hg38",
+    "mm10",
+    "mm39",
+    "oviAri3",
+    "oviAri4"
+  ],
+  "gCF_017639785": [
+    "hg19",
+    "mm10"
+  ],
+  "gorGor1": [
+    "hg19"
+  ],
+  "gorGor6": [
+    "hg19",
+    "mm39"
+  ],
+  "loxAfr3": [
+    "hg19",
+    "hg38",
+    "mm10",
+    "mm39",
+    "mm9",
+    "monDom5",
+    "neoSch1",
+    "panTro6",
+    "rheMac10"
+  ],
+  "macEug1": [
+    "hg19",
+    "monDom5"
+  ],
+  "myoLuc1": [
+    "hg19"
+  ],
+  "nomLeu3": [
+    "hg19",
+    "hg38",
+    "nomLeu2",
+    "tarSyr2"
+  ],
+  "ochPri2": [
+    "hg19",
+    "mm10"
+  ],
+  "ochPri3": [
+    "hg19",
+    "hg38",
+    "mm39",
+    "ochPri2"
+  ],
+  "panPan3": [
+    "hg19",
+    "hg38",
+    "mm10",
+    "mm39",
+    "panPan1",
+    "panPan2"
+  ],
+  "papAnu2": [
+    "hg19",
+    "hg38",
+    "papAnu4",
+    "papHam1",
+    "rheMac10",
+    "rheMac2",
+    "tarSyr2"
+  ],
+  "ponAbe3": [
+    "hg19",
+    "hg38",
+    "mm10",
+    "panTro6",
+    "ponAbe2"
+  ],
+  "proCap1": [
+    "hg19",
+    "mm10"
+  ],
+  "saiBol1": [
+    "hg19",
+    "hg38",
+    "mm10",
+    "tarSyr2"
+  ],
+  "sarHar1": [
+    "hg19",
+    "hg38",
+    "mm10",
+    "monDom5"
+  ],
+  "sorAra1": [
+    "hg19",
+    "mm10"
+  ],
+  "speTri1": [
+    "hg19"
+  ],
+  "speTri2": [
+    "hg19",
+    "hg38",
+    "mm10",
+    "mm39"
+  ],
+  "susScr3": [
+    "hg19",
+    "hg38",
+    "mm10",
+    "mm39",
+    "oviAri3",
+    "susScr11",
+    "susScr2"
+  ],
+  "susScr11": [
+    "hg19",
+    "hg38",
+    "mm10",
+    "mm39",
+    "susScr3"
+  ],
+  "turTru1": [
+    "hg19",
+    "mm10"
+  ],
+  "amaVit1": [
+    "hg38"
+  ],
+  "anaPla1": [
+    "hg38"
+  ],
+  "aotNan1": [
+    "hg38",
+    "mm10"
+  ],
+  "apaSpi1": [
+    "hg38"
+  ],
+  "aptMan1": [
+    "hg38"
+  ],
+  "araMac1": [
+    "hg38"
+  ],
+  "astMex1": [
+    "hg38"
+  ],
+  "bisBis1": [
+    "hg38",
+    "mm10"
+  ],
+  "camFer1": [
+    "hg38"
+  ],
+  "capHir1": [
+    "hg38"
+  ],
+  "casCan1": [
+    "hg38",
+    "mm10"
+  ],
+  "cavApe1": [
+    "hg38",
+    "mm10"
+  ],
+  "cebCap1": [
+    "hg38",
+    "mm10"
+  ],
+  "cerAty1": [
+    "hg38",
+    "mm10"
+  ],
+  "cheMyd1": [
+    "hg38"
+  ],
+  "chiLan1": [
+    "hg38"
+  ],
+  "chlSab2": [
+    "hg38",
+    "rheMac8",
+    "tarSyr2"
+  ],
+  "chrAsi1": [
+    "hg38"
+  ],
+  "chrPic2": [
+    "hg38",
+    "mm10"
+  ],
+  "colAng1": [
+    "hg38",
+    "mm10"
+  ],
+  "colLiv1": [
+    "hg38"
+  ],
+  "conCri1": [
+    "hg38"
+  ],
+  "dipOrd2": [
+    "hg38",
+    "mm10"
+  ],
+  "eleEdw1": [
+    "hg38"
+  ],
+  "enhLutNer1": [
+    "hg38",
+    "mm10"
+  ],
+  "eptFus1": [
+    "hg38"
+  ],
+  "eulFla1": [
+    "hg38",
+    "mm10"
+  ],
+  "eulMac1": [
+    "hg38",
+    "mm10"
+  ],
+  "falChe1": [
+    "hg38"
+  ],
+  "falPer1": [
+    "hg38",
+    "melGal5"
+  ],
+  "ficAlb1": [
+    "hg38",
+    "mm10"
+  ],
+  "ficAlb2": [
+    "hg38"
+  ],
+  "fukDam1": [
+    "hg38",
+    "mm10"
+  ],
+  "gCA_009914755": [
+    "hg38"
+  ],
+  "gCA_011100615": [
+    "hg38",
+    "macFas5",
+    "mm39"
+  ],
+  "gCA_023856395": [
+    "hg38"
+  ],
+  "gCF_000164845": [
+    "hg38"
+  ],
+  "gCF_000349665": [
+    "hg38",
+    "mm10",
+    "rn6"
+  ],
+  "gCF_001704415": [
+    "hg38",
+    "mm39",
+    "oviAri4"
+  ],
+  "gCF_004115215": [
+    "hg38"
+  ],
+  "gCF_008728515": [
+    "hg38"
+  ],
+  "gCF_009762305": [
+    "hg38"
+  ],
+  "gCF_012559485": [
+    "hg38"
+  ],
+  "gCF_018350175": [
+    "hg38"
+  ],
+  "gCF_030867095": [
+    "hg38"
+  ],
+  "hapBur1": [
+    "hg38"
+  ],
+  "jacJac1": [
+    "hg38"
+  ],
+  "lepOcu1": [
+    "hg38"
+  ],
+  "macEug2": [
+    "hg38",
+    "mm10"
+  ],
+  "macNem1": [
+    "hg38",
+    "mm10"
+  ],
+  "manLeu1": [
+    "hg38",
+    "mm10"
+  ],
+  "manPen1": [
+    "hg38",
+    "mm10",
+    "mm39"
+  ],
+  "mayZeb1": [
+    "hg38"
+  ],
+  "mesAur1": [
+    "hg38"
+  ],
+  "micMur2": [
+    "hg38",
+    "micMur1",
+    "tarSyr2"
+  ],
+  "micMur3": [
+    "hg38",
+    "mm10"
+  ],
+  "micOch1": [
+    "hg38",
+    "mm10"
+  ],
+  "myoDav1": [
+    "hg38"
+  ],
+  "nasLar1": [
+    "hg38"
+  ],
+  "neoBri1": [
+    "hg38"
+  ],
+  "octDeg1": [
+    "hg38"
+  ],
+  "orcOrc1": [
+    "hg38",
+    "mm10"
+  ],
+  "oreNil2": [
+    "hg38",
+    "mm10"
+  ],
+  "oreNil3": [
+    "hg38",
+    "mm10"
+  ],
+  "ornAna2": [
+    "hg38",
+    "neoSch1",
+    "ornAna1",
+    "panTro6",
+    "rheMac10",
+    "rn6"
+  ],
+  "oryAfe1": [
+    "hg38"
+  ],
+  "otoGar3": [
+    "hg38",
+    "mm10",
+    "mm39",
+    "tarSyr2"
+  ],
+  "oviAri4": [
+    "hg38",
+    "mm10",
+    "mm39",
+    "oviAri3"
+  ],
+  "panHod1": [
+    "hg38"
+  ],
+  "papAnu3": [
+    "hg38",
+    "mm10",
+    "papAnu4"
+  ],
+  "papAnu4": [
+    "hg38",
+    "mm10",
+    "papAnu2"
+  ],
+  "petMar3": [
+    "hg38",
+    "mm10",
+    "mm39",
+    "petMar1"
+  ],
+  "proCoq1": [
+    "hg38",
+    "mm10"
+  ],
+  "pseHum1": [
+    "hg38"
+  ],
+  "pteAle1": [
+    "hg38",
+    "panTro6",
+    "rheMac10"
+  ],
+  "punNye1": [
+    "hg38"
+  ],
+  "rhiBie1": [
+    "hg38"
+  ],
+  "rhiRox1": [
+    "hg38"
+  ],
+  "rn7": [
+    "hg38",
+    "mm10",
+    "mm39",
+    "rn5",
+    "rn6"
+  ],
+  "thaSir1": [
+    "hg38",
+    "mm10"
+  ],
+  "triMan1": [
+    "hg38",
+    "mm10"
+  ],
+  "tupChi1": [
+    "hg38",
+    "mm10"
+  ],
+  "vicPac2": [
+    "hg38",
+    "mm10",
+    "vicPac1"
+  ],
+  "xenLae2": [
+    "hg38",
+    "mm10",
+    "xenTro9"
+  ],
+  "xenTro10": [
+    "hg38",
+    "mm10",
+    "mm39",
+    "xenTro7",
+    "xenTro9"
+  ],
+  "xipMac1": [
+    "hg38"
+  ],
+  "zonAlb1": [
+    "hg38"
+  ],
+  "gCF_000146605": [
+    "melGal1"
+  ],
+  "chrPic1": [
+    "mm10"
+  ],
+  "gCA_001624185": [
+    "mm10"
+  ],
+  "gCA_001624445": [
+    "mm10",
+    "mm39"
+  ],
+  "gCA_001624535": [
+    "mm10"
+  ],
+  "gCA_001624675": [
+    "mm10"
+  ],
+  "gCA_001624865": [
+    "mm10"
+  ],
+  "gCA_001632575": [
+    "mm10"
+  ],
+  "gCF_011764305": [
+    "mm10",
+    "mm39"
+  ],
+  "gCF_016772045": [
+    "mm10",
+    "oviAri1",
+    "oviAri3",
+    "oviAri3",
+    "oviAri4"
+  ],
+  "gCF_028858775": [
+    "mm10",
+    "mm39"
+  ],
+  "gCF_028885655": [
+    "mm10",
+    "mm39"
+  ],
+  "gCF_029281585": [
+    "mm10",
+    "mm39"
+  ],
+  "gCF_900094665": [
+    "mm10"
+  ],
+  "gCF_900095145": [
+    "mm10"
+  ],
+  "hetGla1": [
+    "mm10"
+  ],
+  "nomLeu2": [
+    "mm10",
+    "nomLeu1"
+  ],
+  "gCA_001624775": [
+    "mm39"
+  ],
+  "gCA_001624835": [
+    "mm39"
+  ],
+  "gCA_004027735": [
+    "mm39"
+  ],
+  "gCA_921997125": [
+    "mm39"
+  ],
+  "gCA_921997145": [
+    "mm39"
+  ],
+  "gCA_921998325": [
+    "mm39"
+  ],
+  "gCA_921998555": [
+    "mm39"
+  ],
+  "gCA_921999005": [
+    "mm39"
+  ],
+  "susScr1": [
+    "monDom5"
+  ],
+  "braFlo2": [
+    "petMar2"
+  ],
+  "calMil1": [
+    "rn6"
+  ],
+  "sacCer2": [
+    "sacCer1",
+    "sacCer3"
+  ],
+  "sacCer3": [
+    "sacCer1",
+    "sacCer2"
+  ],
+  "sacCer1": [
+    "sacCer2",
+    "sacCer3"
+  ],
+  "strPur1": [
+    "strPur2"
+  ],
+  "gCA_002844635": [
+    "susScr11"
+  ],
+  "gCA_009819655": [
+    "taeGut1",
+    "taeGut2"
+  ],
+  "nanPar1": [
+    "xenTro7",
+    "xenTro9"
+  ]
+}
