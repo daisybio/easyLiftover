@@ -17,7 +17,7 @@ def get_lifter(
         for lifter in lifters:
             if c_type in lifter.supported_formats():
                 return lifter
-            raise Exception("Unsupported file type")
+            raise Exception("Unsupported file type: " + c_type)
 
     def __get_type(path: str) -> str:
         return path.split(".")[-1]
