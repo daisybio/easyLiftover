@@ -24,3 +24,7 @@ class GffLifter(AbstractRowWiseTextLifter):
 
         else:
             return None
+
+    def supported_formats(self) -> list:
+        """Returns the supported formats."""
+        return ["gff", "gff3", "gtf"]

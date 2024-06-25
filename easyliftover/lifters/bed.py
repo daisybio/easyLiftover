@@ -24,3 +24,7 @@ class BedLifter(AbstractRowWiseTextLifter):
             )
         else:
             return None
+
+    def supported_formats(self) -> list:
+        """Returns the supported formats."""
+        return ["bed"]

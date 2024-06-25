@@ -60,3 +60,7 @@ class WigLifter(AbstractTextLifter):
                 result.append(line)
 
         return "\n".join(result)
+
+    def supported_formats(self) -> list:
+        """Returns the supported formats."""
+        return ["wig"]
