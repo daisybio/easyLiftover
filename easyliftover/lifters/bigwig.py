@@ -47,6 +47,7 @@ class BigWigLifter(AbstractLifter):
 
         return wig
 
-    def supported_formats(self) -> list:
+    @staticmethod
+    def supported_formats() -> list:
         """Returns the supported formats."""
         return ["bigwig", "bw"]

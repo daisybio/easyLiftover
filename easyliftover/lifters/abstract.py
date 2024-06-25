@@ -60,8 +60,9 @@ class AbstractLifter(ABC):
         """Lifts a URL."""
         raise NotImplementedError
 
+    @staticmethod
     @abstractmethod
-    def supported_formats(self) -> list:
+    def supported_formats() -> list:
         """Returns the supported formats."""
         raise NotImplementedError
 

@@ -24,6 +24,7 @@ class VcfLifter(AbstractRowWiseTextLifter):
         else:
             return None
 
-    def supported_formats(self) -> list:
+    @staticmethod
+    def supported_formats() -> list:
         """Returns the supported formats."""
         return ["vcf"]
