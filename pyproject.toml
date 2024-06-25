@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "easyliftover"
-version = "0.0.16"
+version = "0.0.17"
 description = "A python package for lifting over biological files"
 license = "GPL3"
 authors = ["Nico Trummer <nictru32@gmail.com>"]
