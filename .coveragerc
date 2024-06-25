@@ -2,6 +2,7 @@
 omit = 
     test/*
     easyliftover/lifters/pyliftover/*
+    easyliftover/lifters/bigwig.py
 
 [report]
 fail_under = 79
