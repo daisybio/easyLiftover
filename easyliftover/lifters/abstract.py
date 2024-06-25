@@ -11,15 +11,17 @@ class AbstractLifter(ABC):
         """Initializes the lifter."""
         self.lo = LiftOver(from_ga, to_ga)
 
-    def convert_coordinate(self, chromosome: str, position: int) -> "Tuple[str, int] | None":
+    def convert_coordinate(
+        self, chromosome: str, position: int
+    ) -> "Tuple[str, int] | None":
         lifted = self.lo.convert_coordinate(chromosome, position)
-        
+
         if lifted is None:
             return None
-        
+
         if len(lifted) == 0:
             return None
-        
+
         return lifted[0][0], lifted[0][1]
 
     def convert_region(
@@ -35,13 +37,15 @@ class AbstractLifter(ABC):
         if lifted_start is None or lifted_end is None:
             print(f"Could not lift {chromosome}:{start}-{end}")
             return None
-        
+
         if lifted_start[0] != lifted_end[0]:
             print(f"Chromosome changed from {chromosome} to {lifted_start[0]}")
             return None
-        
+
         if lifted_start[1] >= lifted_end[1]:
-            print(f"Start position {lifted_start[1]} is larger than end position {lifted_end[1]}")
+            print(
+                f"Start position {lifted_start[1]} is larger than end position {lifted_end[1]}"
+            )
             return None
 
         return lifted_start[0], lifted_start[1], lifted_end[1]
@@ -55,26 +59,33 @@ class AbstractLifter(ABC):
     def lift_url(self, url: str) -> str:
         """Lifts a URL."""
         raise NotImplementedError
-    
+
+    @staticmethod
+    @abstractmethod
+    def supported_formats() -> list:
+        """Returns the supported formats."""
+        raise NotImplementedError
+
+
 class AbstractTextLifter(AbstractLifter):
     """Abstract class for lifters of text-based files."""
-    
+
     @abstractmethod
     def lift_content(self, content: str) -> str:
         """Lifts the content of a file."""
         raise NotImplementedError
-    
+
     def lift_path(self, path: str) -> str:
         """Lifts a path."""
         with open(path) as f:
             content = f.read()
-        
+
         return self.lift_content(content)
-    
+
     def lift_url(self, url: str) -> str:
         """Lifts a URL."""
         response = requests.get(url)
-        
+
         return self.lift_content(response.text)
 
 

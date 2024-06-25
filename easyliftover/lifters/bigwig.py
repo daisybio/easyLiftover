@@ -46,3 +46,8 @@ class BigWigLifter(AbstractLifter):
                     wig += f"{lifted_start}\t{rounded_value}\n"
 
         return wig
+
+    @staticmethod
+    def supported_formats() -> list:
+        """Returns the supported formats."""
+        return ["bigwig", "bw"]
